@@ -800,6 +800,10 @@ a.status-card:hover {
   color: var(--cyan);
 }
 
+.account__header__bio .account__header__fields dt {
+  text-align: left;
+}
+
 .account__header__bar .avatar .account__avatar {
   border: 2px solid var(--gray-shade-4);
 }
@@ -1343,6 +1347,11 @@ a.status-card:hover {
 .account__header__fields a,
 .account__header__bio .account__header__fields a {
   color: var(--cyan);
+}
+
+.public-layout .public-account-bio .account__header__fields dt
+{
+  text-align: left;
 }
 
 .activity-stream .entry:first-child .detailed-status,
