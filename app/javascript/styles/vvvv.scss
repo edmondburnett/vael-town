@@ -1430,7 +1430,7 @@ a.status-card:hover {
 
 .public-layout .box-widget a,
 .public-layout .box-widget a:visited {
-  color: var(--black);
+  color: var(--cyan);
 }
 
 .public-layout .box-widget ul {
@@ -1443,6 +1443,7 @@ a.status-card:hover {
   margin-bottom: 1em;
   padding-left: 1em;
   position: relative;
+  color: var(--black);
 }
 
 .public-layout .box-widget ul li::after {
