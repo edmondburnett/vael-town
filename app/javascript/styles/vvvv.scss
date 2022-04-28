@@ -1537,6 +1537,10 @@ a.status-card:hover {
   margin-right: 10px;
 }
 
+.public-layout .rules-list {
+  background: var(--shade-gray-4);
+}
+
 /*
   settings sidebar
 */
@@ -1763,6 +1767,10 @@ body .muted-hint a {
 .account__header__content,
 .accounts-table__count small {
   color: var(--gray-shade-9);
+}
+
+.account-card {
+  background: var(--gray-shade-3);
 }
 
 /*
