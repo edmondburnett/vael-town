@@ -804,6 +804,10 @@ a.status-card:hover {
   text-align: left;
 }
 
+.account__header__bio .account__header__fields dd {
+  text-align: left;
+}
+
 .account__header__bar .avatar .account__avatar {
   border: 2px solid var(--gray-shade-4);
 }
@@ -1350,6 +1354,11 @@ a.status-card:hover {
 }
 
 .public-layout .public-account-bio .account__header__fields dt
+{
+  text-align: left;
+}
+
+.public-layout .public-account-bio .account__header__fields dd
 {
   text-align: left;
 }
