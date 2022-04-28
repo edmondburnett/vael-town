@@ -73,7 +73,7 @@ en:
       imports:
         data: CSV file exported from another Mastodon server
       invite_request:
-        text: Please read the <a href="https://vvvv.social/about/more" target="_blank">Instance Values</a> first to determine if this instance is right for you. Include some details about yourself and any relevant social media links, etc to help us review your invite request.
+        text: Please read the <a href="/about/more" target="_blank">Instance Values</a> first to determine if this community is right for you. Include some details about yourself and any relevant social media links, etc to help us review your invite request.
       ip_block:
         comment: Optional. Remember why you added this rule.
         expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
