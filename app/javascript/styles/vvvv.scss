@@ -1434,7 +1434,7 @@ a.status-card:hover {
 }
 
 .public-layout .box-widget ul {
-  list-style: none;
+  list-style-type: none;
   margin-left: 0;
 }
 
@@ -1443,7 +1443,7 @@ a.status-card:hover {
   margin-bottom: 1em;
   padding-left: 1em;
   position: relative;
-  color: var(--black);
+  color: var(--gray-shade-c);
 }
 
 .public-layout .box-widget ul li::after {
