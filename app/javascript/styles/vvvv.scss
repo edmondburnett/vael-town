@@ -1433,6 +1433,11 @@ a.status-card:hover {
   color: var(--cyan);
 }
 
+.public-layout .box-widget .button.button-primary a,
+.public-layout .box-widget .button.button-primary a:visited {
+  color: var(--gray-shade-2);
+}
+
 .public-layout .box-widget ul {
   list-style-type: none;
   margin-left: 0;
