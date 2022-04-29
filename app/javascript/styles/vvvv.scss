@@ -2179,6 +2179,10 @@ body .muted-hint a {
   color: var(--gray-shade-7);
 }
 
+.compose-form .compose-form__autosuggest-wrapper {
+  background-color: var(--gray-shade-c);
+}
+
 .icon-with-badge__badge {
   background: var(--cyan);
   color: var(--gray-shade-3);
