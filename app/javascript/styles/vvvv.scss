@@ -1,7 +1,7 @@
 @import "application";
 
 /*
-  CSS theme adapted from Merveilles: https://github.com/merveilles/merveilles-town
+  Vael CSS theme adapted from Merveilles: https://github.com/merveilles/merveilles-town
 */
 
 /*
@@ -2177,10 +2177,6 @@ body .muted-hint a {
 
 .compose-form .autosuggest-textarea__textarea::placeholder {
   color: var(--gray-shade-7);
-}
-
-.compose-form .compose-form__autosuggest-wrapper {
-  background-color: var(--gray-shade-c);
 }
 
 .icon-with-badge__badge {
