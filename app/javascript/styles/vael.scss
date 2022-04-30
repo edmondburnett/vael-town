@@ -2227,24 +2227,21 @@ body .muted-hint a {
   color: var(--gray-shade-e);
 }
 
-.emoji-button img
-  {
-    display: none;
-  }
+/* This section replaces Mastodon's default 'joy' emoji-picker icon which is often used aggressively */
 
-/* you juste have to copy and paste the emoji itself from http://getemoji.com  */
+.emoji-button img {
+  display: none;
+}
 
-  .emoji-button::after
-  {
-    content: "🖤";
-  }
+.emoji-button::after {
+  content: "🖤";
+}
 
-  .emoji-button
-  {
-    text-decoration: none !important;
-    margin-right: 5px;
-    margin-top: 5px;
-  }
+.emoji-button {
+  text-decoration: none !important;
+  margin-right: 3px;
+  margin-top: 3px
+}
 
 /* DM styling */
 
