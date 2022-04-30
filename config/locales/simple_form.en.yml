@@ -193,7 +193,7 @@ en:
       invite:
         comment: Comment
       invite_request:
-        text: Why do you want to join?
+        text: Please tell us a bit about yourself!
       ip_block:
         comment: Comment
         ip: IP
