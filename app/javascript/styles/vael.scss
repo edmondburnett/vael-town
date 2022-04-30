@@ -2227,6 +2227,25 @@ body .muted-hint a {
   color: var(--gray-shade-e);
 }
 
+.emoji-button img
+  {
+    display: none;
+  }
+
+/* you juste have to copy and paste the emoji itself from http://getemoji.com  */
+
+  .emoji-button::after
+  {
+    content: "🖤";
+  }
+
+  .emoji-button
+  {
+    text-decoration: none !important;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
 /* DM styling */
 
 .conversation {
