@@ -1488,6 +1488,7 @@ a.status-card:hover {
 .public-layout .box-widget .rich-formatting li,
 .public-layout .box-widget .rich-formatting p {
   color: var(--gray-shade-c);
+  font-size: 16px;
 }
 
 .public-layout .box-widget .rich-formatting h1,
@@ -1503,10 +1504,6 @@ a.status-card:hover {
 .public-layout .box-widget .rich-formatting table tr {
   border-bottom-color: var(--gray-shade-3);
   color: var(--gray-shade-c);
-}
-
-.public-layout .box-widget .rich-formatting p {
-  font-size: 16px;
 }
 
 .public-layout .contact-widget,
