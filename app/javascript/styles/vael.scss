@@ -1505,6 +1505,10 @@ a.status-card:hover {
   color: var(--gray-shade-c);
 }
 
+.public-layout .box-widget .rich-formatting p {
+  font-size: 16px;
+}
+
 .public-layout .contact-widget,
 .public-layout .landing-page__information.contact-widget {
   color: var(--white);
