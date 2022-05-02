@@ -1256,12 +1256,12 @@ a.status-card:hover {
   background: var(--gray-shade-4);
 }
 
-.public-layout .header .brand a {
-  color: var(--gray-shade-c);
+.public-layout .header .brand {
+  color: var(--white);
 }
 
 .public-layout .header .brand a:visited {
-  color: var(--gray-shade-c);
+  color: var(--white);
 }
 
 .public-layout .header .nav-link {
