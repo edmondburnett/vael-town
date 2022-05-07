@@ -26,9 +26,9 @@
   --white: #fff;
   // --cyan: #72dec2;
   // --cyan-light: #9ffce3;
-  --cyan: #E5C321;
-  --cyan: #D8A108;
-  --cyan-light: #f5db5b;
+  --gold-dark: #D8A108;
+  --gold: #E5C321;
+  --gold-light: #f5db5b;
 }
 
 html {
@@ -53,12 +53,12 @@ body {
 }
 
 .button {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-3);
 }
 
 .button:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .app-holder > div {
@@ -66,7 +66,7 @@ body {
 }
 
 .link-button {
-  color: var(--cyan);
+  color: var(--gold);
   text-decoration: underline;
 }
 
@@ -144,7 +144,7 @@ body {
 }
 
 .react-toggle:hover .react-toggle-track {
-  background-color: var(--cyan) !important;
+  background-color: var(--gold) !important;
 }
 
 .setting-toggle__label {
@@ -156,30 +156,30 @@ body {
 }
 
 .react-toggle-track-check svg path {
-  fill: var(--cyan) !important;
+  fill: var(--gold) !important;
 }
 
 .loading-bar {
-  background-color: var(--cyan) !important;
+  background-color: var(--gold) !important;
 }
 
 .loading-indicator {
-  color: var(--cyan) !important;
+  color: var(--gold) !important;
 }
 
 .loading-indicator__figure {
-  border-color: var(--cyan) !important;
+  border-color: var(--gold) !important;
 }
 
 @keyframes loader-figure {
   0% {
-    background-color: var(--cyan);
+    background-color: var(--gold);
     width: 0;
     height: 0;
   }
 
   29% {
-    background-color: var(--cyan);
+    background-color: var(--gold);
   }
 
   30% {
@@ -270,12 +270,12 @@ body {
 }
 
 .notification__message .fa {
-  color: var(--cyan) !important;
+  color: var(--gold) !important;
 }
 
 .notification.unread:before,
 .status__wrapper.unread:before {
-  border-color: var(--cyan) !important;
+  border-color: var(--gold) !important;
 }
 
 .status {
@@ -301,7 +301,7 @@ body {
 }
 
 .status.light .status__content a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .icon-button,
@@ -310,11 +310,11 @@ body {
 }
 
 .icon-button.active {
-  color: var(--cyan) !important;
+  color: var(--gold) !important;
 }
 
 .icon-button:hover {
-  color: var(--cyan) !important;
+  color: var(--gold) !important;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -328,8 +328,8 @@ body {
 }
 
 .compose-form__sensitive-button .checkbox.active {
-  border-color: var(--cyan);
-  background-color: var(--cyan);
+  border-color: var(--gold);
+  background-color: var(--gold);
 }
 
 .status__relative-time {
@@ -442,7 +442,7 @@ a.floating-action-button:hover,
 .dropdown-menu__item a:active,
 .dropdown-menu__item a:focus,
 .dropdown-menu__item a:hover {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-3);
 }
 
@@ -490,7 +490,7 @@ a.floating-action-button:hover,
 }
 
 .column-settings__hashtags .column-select__option {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .column-settings__hashtags .column-select__option--is-focused,
@@ -660,7 +660,7 @@ a.floating-action-button:hover,
 }
 
 .compose-form__publish .button:hover {
-  background: var(--cyan);
+  background: var(--gold);
   cursor: pointer;
 }
 
@@ -695,7 +695,7 @@ a.floating-action-button:hover,
 }
 
 .trends__item__sparkline path:last-child {
-  stroke: var(--cyan) !important;
+  stroke: var(--gold) !important;
 }
 
 .trends__item {
@@ -796,11 +796,11 @@ a.status-card:hover {
 }
 
 .account__header__content a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .account__header__bio .account__header__fields a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .account__header__bio .account__header__fields dt {
@@ -837,7 +837,7 @@ a.status-card:hover {
 }
 
 .account__action-bar__tab.active {
-  border-bottom-color: var(--cyan);
+  border-bottom-color: var(--gold);
 }
 
 .account__section-headline {
@@ -1041,12 +1041,12 @@ a.status-card:hover {
 }
 
 .fa-retweet::before {
-  color: var(--cyan);
+  color: var(--gold);
   content: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;
 }
 
 .status__prepend-icon {
-  color: var(--cyan);
+  color: var(--gold);
   margin-top: -2px;
 }
 
@@ -1105,11 +1105,11 @@ a.status-card:hover {
 
 .tabs-bar__link.active {
   border-bottom: 0;
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .loading-bar {
-  background-color: var(--cyan);
+  background-color: var(--gold);
 }
 
 .status-card__image-image {
@@ -1117,7 +1117,7 @@ a.status-card:hover {
 }
 
 .column-header.active .column-header__icon {
-  color: var(--cyan);
+  color: var(--gold);
   text-shadow: none;
 }
 
@@ -1138,8 +1138,8 @@ a.status-card:hover {
 }
 
 .column-inline-form .setting-text:focus {
-  color: var(--cyan);
-  border-bottom: 2px solid var(--cyan);
+  color: var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 
 .navigation-bar .navigation-bar__profile-account {
@@ -1160,7 +1160,7 @@ a.status-card:hover {
 }
 
 .load-more:hover {
-  color: var(--cyan);
+  color: var(--gold);
   background: var(--gray-shade-3);
 }
 
@@ -1182,19 +1182,19 @@ a.status-card:hover {
 .privacy-dropdown__option.active
   .privacy-dropdown__option__content
   strong:hover {
-  background: var(--cyan) !important;
+  background: var(--gold) !important;
   color: var(--gray-shade-3);
 }
 
 .privacy-dropdown__option.active,
 .privacy-dropdown__option:hover,
 .privacy-dropdown__option.active:hover {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active {
   color: var(--gray-shade-3);
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active i {
@@ -1202,12 +1202,12 @@ a.status-card:hover {
 }
 
 .text-icon-button.active {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .privacy-dropdown .icon-button.active {
   color: var(--gray-shade-3) !important;
-  background: var(--cyan);
+  background: var(--gold);
   border-radius: 4px 4px 0 0;
 }
 
@@ -1282,7 +1282,7 @@ a.status-card:hover {
 }
 
 .public-layout .header p {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .public-layout .header .nav-button {
@@ -1291,7 +1291,7 @@ a.status-card:hover {
 }
 
 .public-layout .header .nav-button:hover {
-  color: var(--cyan);
+  color: var(--gold);
   background: var(--gray-shade-4);
 }
 
@@ -1322,7 +1322,7 @@ a.status-card:hover {
 }
 
 .public-layout .public-account-header__tabs__tabs .counter.active::after {
-  border-bottom: 2px solid var(--cyan);
+  border-bottom: 2px solid var(--gold);
 }
 
 .public-layout .public-account-header__tabs__tabs .counter::after {
@@ -1361,7 +1361,7 @@ a.status-card:hover {
 .public-layout .public-account-bio .account__header__fields a,
 .account__header__fields a,
 .account__header__bio .account__header__fields a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .public-layout .public-account-bio .account__header__fields dt
@@ -1402,7 +1402,7 @@ a.status-card:hover {
 
 .public-layout .public-account-header__tabs__name h1 small,
 .account__header__tabs__name h1 small {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .button.logo-button {
@@ -1410,7 +1410,7 @@ a.status-card:hover {
 }
 
 .button.logo-button:hover {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .public-layout .hero-widget__text {
@@ -1439,7 +1439,7 @@ a.status-card:hover {
 
 .public-layout .public-account-bio__extra,
 .public-layout .public-account-bio .roles {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .public-layout .status__action-bar__counter__label {
@@ -1459,7 +1459,7 @@ a.status-card:hover {
 
 .public-layout .box-widget a,
 .public-layout .box-widget a:visited {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .public-layout .box-widget .actions a,
@@ -1525,7 +1525,7 @@ a.status-card:hover {
 
 .public-layout .contact-widget,
 .public-layout .landing-page__information.contact-widget a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .account-role.admin {
@@ -1584,7 +1584,7 @@ a.status-card:hover {
 }
 
 .admin-wrapper .quick-nav a:hover {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .admin-wrapper .sidebar__toggle {
@@ -1616,7 +1616,7 @@ a.status-card:hover {
 
 .admin-wrapper .sidebar ul a:hover,
 .admin-wrapper .sidebar ul a:focus {
-  color: var(--cyan);
+  color: var(--gold);
   background: var(--gray-shade-2);
 }
 
@@ -1645,34 +1645,34 @@ a.status-card:hover {
   ul
   .simple-navigation-active-leaf
   a:focus {
-  color: var(--cyan);
+  color: var(--gold);
   background: var(--gray-shade-2);
 }
 
 .admin-wrapper .simple_form button {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-3);
 }
 
 .admin-wrapper .simple_form button:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .admin-wrapper .simple_form .block-button {
   color: var(--gray-shade-3);
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .admin-wrapper .simple_form .block-button:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .admin-wrapper a.button {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .admin-wrapper a.button:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .admin-wrapper .table > tbody > tr:nth-child(odd) > td,
@@ -1688,7 +1688,7 @@ a.status-card:hover {
 
 .admin-wrapper .table a {
   text-decoration: none;
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .admin-wrapper .card__bar {
@@ -1696,7 +1696,7 @@ a.status-card:hover {
 }
 
 .admin-wrapper .card__bar .display-name span {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .admin-wrapper .content .muted-hint,
@@ -1707,7 +1707,7 @@ body .muted-hint,
 
 .admin-wrapper .content .muted-hint a,
 body .muted-hint a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .admin-wrapper .content h2,
@@ -1742,8 +1742,8 @@ body .muted-hint a {
 }
 
 .radio-button__input.checked {
-  border-color: var(--cyan);
-  background: var(--cyan);
+  border-color: var(--gold);
+  background: var(--gold);
 }
 
 .directory__card__img {
@@ -1769,7 +1769,7 @@ body .muted-hint a {
 }
 
 .directory__tag.active a {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .directory__tag a:active,
@@ -1818,7 +1818,7 @@ body .muted-hint a {
 }
 
 .card__bar .display-name span {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .card__img {
@@ -1913,12 +1913,12 @@ body .muted-hint a {
 }
 
 .simple_form button {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-2);
 }
 
 .simple_form button:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .simple_form select {
@@ -1926,7 +1926,7 @@ body .muted-hint a {
 }
 
 .simple_form .input.boolean label a {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .landing .simple_form .user_agreement .label_input > label,
@@ -1952,12 +1952,12 @@ body .muted-hint a {
 }
 
 .button.button-primary {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-2);
 }
 
 .button.button-primary:hover {
-  background: var(--cyan-light);
+  background: var(--gold-light);
 }
 
 .button.button-secondary {
@@ -2010,17 +2010,17 @@ body .muted-hint a {
 .simple_form input[type="text"]:required:valid,
 .simple_form textarea:required:valid {
   background: var(--gray-shade-1);
-  border-color: var(--cyan);
+  border-color: var(--gold);
 }
 
 .poll .button.button-secondary:disabled {
-  background-color: var(--cyan);
+  background-color: var(--gold);
   cursor: pointer;
   opacity: .5;
 }
 
 .poll .button.button-secondary {
-  background-color: var(--cyan);
+  background-color: var(--gold);
   cursor: pointer;
   opacity: 1;
 }
@@ -2034,7 +2034,7 @@ body .muted-hint a {
 }
 
 .poll__link {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .poll__footer {
@@ -2048,7 +2048,7 @@ body .muted-hint a {
 .poll__chart.leading,
 .poll__chart.leading .poll-text,
 .muted .poll__chart.leading {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .actions-modal,
@@ -2078,7 +2078,7 @@ body .muted-hint a {
 .actions-modal ul li:not(:empty) a:focus button,
 .actions-modal ul li:not(:empty) a:hover,
 .actions-modal ul li:not(:empty) a:hover button {
-  background-color: var(--cyan);
+  background-color: var(--gold);
   color: var(--gray-shade-3);
 }
 
@@ -2091,7 +2091,7 @@ body .muted-hint a {
 .boost-modal__action-bar .button,
 .confirmation-modal__action-bar .button,
 .mute-modal__action-bar .button {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-5);
 }
 
@@ -2101,12 +2101,12 @@ body .muted-hint a {
 .mute-modal__action-bar .confirmation-modal__cancel-button,
 .mute-modal__action-bar .confirmation-modal__secondary-button,
 .mute-modal__action-bar .mute-modal__cancel-button {
-  color: var(--cyan);
+  color: var(--gold);
   background: none !important;
 }
 
 .media-modal__button--active {
-  background-color: var(--cyan);
+  background-color: var(--gold);
 }
 
 .report-modal__comment .setting-text-label {
@@ -2132,7 +2132,7 @@ body .muted-hint a {
 
 .search-popout h4,
 .search-popout em {
-  color: var(--cyan) !important;
+  color: var(--gold) !important;
 }
 
 .search-popout span {
@@ -2162,12 +2162,12 @@ body .muted-hint a {
   .tabs-bar__link:focus,
   .tabs-bar__link:hover {
     background: transparent;
-    color: var(--cyan);
+    color: var(--gold);
   }
 }
 
 .column-link--transparent.active {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .navigation-panel hr {
@@ -2183,7 +2183,7 @@ body .muted-hint a {
 .compose-form .autosuggest-textarea__suggestions__item:active,
 .compose-form .autosuggest-textarea__suggestions__item:focus,
 .compose-form .autosuggest-textarea__suggestions__item:hover {
-  background-color: var(--cyan);
+  background-color: var(--gold);
   color: var(--black);
 }
 
@@ -2192,14 +2192,14 @@ body .muted-hint a {
 }
 
 .icon-with-badge__badge {
-  background: var(--cyan);
+  background: var(--gold);
   color: var(--gray-shade-3);
   border: 0;
 }
 
 .reply-indicator__content a.unhandled-link,
 .status__content a.unhandled-link {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 /* Announcment Styling */
@@ -2210,7 +2210,7 @@ body .muted-hint a {
 }
 
 .announcements__item__unread {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .announcements__pagination {
@@ -2218,7 +2218,7 @@ body .muted-hint a {
 }
 
 .announcements__item__content a.unhandled-link {
-  color: var(--cyan);
+  color: var(--gold);
 }
 
 .reactions-bar__item {
@@ -2352,7 +2352,7 @@ span.emoji-mart-anchor-bar {
 }
 
 .conversation__unread {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .conversation__content__names {
@@ -2372,7 +2372,7 @@ span.emoji-mart-anchor-bar {
 }
 
 .audio-player__progress-placeholder {
-  background-color: var(--cyan);
+  background-color: var(--gold);
 }
 
 .audio-player__wave-placeholder {
@@ -2389,7 +2389,7 @@ span.emoji-mart-anchor-bar {
 }
 
 .video-player__volume__handle {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 .video-player__volume::before {
@@ -2397,7 +2397,7 @@ span.emoji-mart-anchor-bar {
 }
 
 .video-player__volume__current {
-  background: var(--cyan);
+  background: var(--gold);
 }
 
 /*
@@ -2478,8 +2478,8 @@ a.table-action-link {
 }
 
 .filters .filter-subset a.selected {
-  border-bottom-color: var(--cyan);
-  color: var(--cyan);
+  border-bottom-color: var(--gold);
+  color: var(--gold);
 }
 
 .dashboard__counters > div > a,
