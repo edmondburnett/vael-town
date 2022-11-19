@@ -2,9 +2,9 @@
     viewBox="520 280 2215 560" fill: "none">
     <symbol id="logo-symbol-wordmark">
         <path d=""
-            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 0, 153); fill: none;" />
+            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 0, 153); fill: currentColor;" />
         <path d=""
-            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(51, 255, 0); fill: none;" />
+            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(51, 255, 0); fill: currentColor;" />
         <path
             d="M660,540 L660,540 L780,300 M840,300 L840,300 L720,540 M960,540 L960,540 L960,540 L960,540 L960,300 L960,300 L960,300 L1080,300 M1140,300 L1140,300 L1140,540 L1140,540 L1260,540 M1080,540 L1080,540 L960,540 M840,300 L840,300 L840,300 L840,300 L900,300 L900,300 L900,540 M660,540 L660,540 L660,540 L660,540 L540,300 M960,420 L960,420 L1020,420 "
             style="stroke-width: 40; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 255, 255); fill: none;" />
