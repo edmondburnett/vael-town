@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" version="1.1"
+    width="1920px" height="870px" viewBox="0 0 1920 870" style="fill: none; width: 261px; height: 66px;">
+    <symbol id="logo-symbol-wordmark">
+        <path d=""
+            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 0, 153); fill: none;" />
+        <path d=""
+            style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(51, 255, 0); fill: none;" />
+        <path
+            d="M660,540 L660,540 L780,300 M840,300 L840,300 L720,540 M960,540 L960,540 L960,540 L960,540 L960,300 L960,300 L960,300 L1080,300 M1140,300 L1140,300 L1140,540 L1140,540 L1260,540 M1080,540 L1080,540 L960,540 M840,300 L840,300 L840,300 L840,300 L900,300 L900,300 L900,540 M660,540 L660,540 L660,540 L660,540 L540,300 M960,420 L960,420 L1020,420 "
+            style="stroke-width: 40; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 255, 255); fill: none;" />
+    </symbol>
+    <use xlink:href="#logo-symbol-wordmark" style="color:#fff" />
+</svg>
