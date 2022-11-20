@@ -12,6 +12,7 @@ $gray-shade-8: #888;
 $gray-shade-9: #999;
 $gray-shade-a: #aaa;
 $gray-shade-c: #ccc;
+$gray-shade-d: #ddd;
 $gray-shade-e: #eee;
 $white: #f6f6f6;
 $cyan: #79dfc4;
@@ -31,9 +32,9 @@ $gold-star: #ca8f04 !default;        // Dark Goldenrod
 $red-bookmark: $warning-red;
 
 // Values from the classic Mastodon UI
-$classic-base-color: $gray-shade-1;         // Midnight Express
+$classic-base-color: $gray-shade-1;
 $classic-primary-color: $gray-shade-c;
-$classic-secondary-color: #d9e1e8;    // Pattens Blue
+$classic-secondary-color: $gray-shade-d;
 $classic-highlight-color: $cyan;
 
 // Variables for defaults in UI
