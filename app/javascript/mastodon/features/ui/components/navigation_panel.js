@@ -47,8 +47,8 @@ class NavigationPanel extends React.Component {
     return (
       <div className='navigation-panel'>
         <div className='navigation-panel__logo'>
-          <Link to='/' className='column-link column-link--logo'><Logo /></Link>
-          <hr />
+          {/* <Link to='/' className='column-link column-link--logo'><Logo /></Link>
+          <hr /> */}
         </div>
 
         {signedIn && (
