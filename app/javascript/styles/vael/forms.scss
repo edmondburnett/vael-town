@@ -441,7 +441,7 @@ code {
     &:active,
     &:focus {
       border-color: $highlight-text-color;
-      background: darken($ui-base-color, 8%);
+      background: $gray-shade-1-5;
     }
   }
 
@@ -506,7 +506,8 @@ code {
     border: 0;
     border-radius: 4px;
     background: darken($ui-highlight-color, 2%);
-    color: $primary-text-color;
+    // color: $primary-text-color;
+    color: $black;
     font-size: 18px;
     line-height: inherit;
     height: auto;
