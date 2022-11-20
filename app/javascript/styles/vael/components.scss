@@ -3709,7 +3709,8 @@ a.status-card.compact:hover {
 }
 
 .column-header__collapsible-inner {
-  background: lighten($ui-base-color, 8%);
+  // background: lighten($ui-base-color, 8%);
+  background: $gray-shade-1;
   padding: 15px;
 }
 
