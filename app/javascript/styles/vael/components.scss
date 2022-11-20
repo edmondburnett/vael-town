@@ -3596,7 +3596,8 @@ a.status-card.compact:hover {
 .column-header {
   display: flex;
   font-size: 16px;
-  background: lighten($ui-base-color, 4%);
+  // background: lighten($ui-base-color, 4%);
+  background: $gray-shade-2;
   border-radius: 4px 4px 0 0;
   flex: 0 0 auto;
   cursor: pointer;
