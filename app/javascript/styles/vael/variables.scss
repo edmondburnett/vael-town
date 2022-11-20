@@ -15,6 +15,7 @@ $gray-shade-c: #ccc;
 $gray-shade-e: #eee;
 $white: #f6f6f6;
 $cyan: #79dfc4;
+$cyan-2: #84ceba;
 $cyan-light: #b6ffeb;
 $gold: #E5C321;
 $gold-light: #f5db5b;
@@ -22,7 +23,7 @@ $gold-light: #f5db5b;
 // Commonly used web colors
 $black: #000000;            // Black
 // $white: #ffffff;            // White
-$success-green: #79bd9a !default;    // Padua
+$success-green: $cyan-2 !default;
 $error-red: #df405a !default;        // Cerise
 $warning-red: #ff5050 !default;      // Sunset Orange
 $gold-star: #ca8f04 !default;        // Dark Goldenrod
