@@ -240,7 +240,8 @@ $content-width: 840px;
 
           &.selected {
             font-weight: 700;
-            color: $primary-text-color;
+            // color: $primary-text-color;
+            color: $black;
             background: $ui-highlight-color;
 
             &:hover,
