@@ -281,6 +281,7 @@ class EmojiPickerMenu extends React.PureComponent {
           color=''
           emoji=''
           set='twitter'
+          theme='dark'
           title={title}
           i18n={this.getI18n()}
           onClick={this.handleClick}
