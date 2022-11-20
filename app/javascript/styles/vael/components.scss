@@ -1740,35 +1740,9 @@ a.account__display-name {
 }
 
 .notification__favourite-icon-wrapper {
-  // .star-icon {
-  //   color: $gold-star;
-  // }
-  // added
-  left: 10px;
-  top: 2px;
-  position: absolute;
-}
-
-.notification__favourite-icon-wrapper .star-icon::before {
-  display: none !important;
-}
-
-.notification__favourite-icon-wrapper .star-icon {
-  background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-  height: 15px;
-  background-position: center;
-  background-size: 15px;
-}
-
-.notification__favourite-icon-wrapper .fa-retweet::before {
-  display: none !important;
-}
-
-.notification__favourite-icon-wrapper .fa-retweet {
-  background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>");
-  height: 17px;
-  background-size: 17px;
-  background-position: center;
+  .star-icon {
+    color: $gold-star;
+  }
 }
 
 .icon-button.star-icon.active {
@@ -2497,11 +2471,6 @@ $ui-header-height: 55px;
   .react-swipeable-view-container .columns-area--mobile {
     height: calc(100% - 10px) !important;
   }
-
-  // added
-  // .columns-area--mobile .notification__favourite-icon-wrapper {
-  //   left: 25px;
-  // }
 
   .getting-started__wrapper,
   .search {
