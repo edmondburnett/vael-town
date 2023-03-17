@@ -1441,7 +1441,7 @@
         "id": "compose_form.publish"
       },
       {
-        "defaultMessage": "{publish}!",
+        "defaultMessage": "{publish}",
         "id": "compose_form.publish_loud"
       },
       {
