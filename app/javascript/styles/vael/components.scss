@@ -2234,8 +2234,8 @@ $ui-header-height: 55px;
 }
 
 .tabs-bar__wrapper {
-  background: darken($ui-base-color, 8%);
-  // background: $ui-base-color;
+  // background: darken($ui-base-color, 8%);
+  background: $ui-base-color;
   position: sticky;
   top: $ui-header-height;
   z-index: 2;
@@ -2253,6 +2253,11 @@ $ui-header-height: 55px;
       margin-bottom: 10px;
     }
   }
+}
+
+// added this for vael
+.tabs-bar__portal {
+  background: $gray-shade-3;
 }
 
 .react-swipeable-view-container {
