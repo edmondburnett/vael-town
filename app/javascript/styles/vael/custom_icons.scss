@@ -38,13 +38,13 @@
 }
 
 .icon-button:hover i.fa-star {
-    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
     // stroke: $white !important;
     // color: var(--white) !important;
 }
 
 .icon-button.active i.fa-star {
-    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
     height: 22px;
     background-position: 0 0;
     background-size: 22px;
@@ -54,7 +54,7 @@
 .detailed-status__link i.fa-star {
     width: 14px;
     height: 14px;
-    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><path d='M7,2 L13,13 L1,13 Z' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><path d='M7,2 L13,13 L1,13 Z' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
     margin-bottom: 0.5px;
     vertical-align: sub;
 }
