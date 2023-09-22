@@ -7445,6 +7445,7 @@ noscript {
 
 .account__header {
   overflow: hidden;
+  background: lighten($ui-base-color, 4%);
 
   &.inactive {
     opacity: 0.5;
