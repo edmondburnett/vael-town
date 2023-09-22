@@ -1,3 +1,25 @@
+.notification__favourite-icon-wrapper {
+    left: 10px;
+    top: 2px;
+    position: absolute;
+}
+
+.notification__favourite-icon-wrapper .star-icon::before {
+    display: none !important;
+}
+
+.notification__favourite-icon-wrapper .star-icon {
+    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    height: 15px;
+    background-position: center;
+    background-size: 15px;
+}
+
+.star-icon .icon-button:hover {
+    color: var(--white) !important;
+    cursor: pointer;
+}
+
 .icon-button i.fa-star {
     background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
