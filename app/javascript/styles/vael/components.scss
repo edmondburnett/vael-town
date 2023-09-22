@@ -1065,11 +1065,11 @@ body > [data-popper-placement] {
 .focusable {
   &:focus {
     outline: 0;
-    background: lighten($ui-base-color, 4%);
+    background: lighten($ui-base-color, 8%);
 
     .detailed-status,
     .detailed-status__action-bar {
-      background: lighten($ui-base-color, 8%);
+      background: lighten($ui-base-color, 10%);
     }
   }
 }
@@ -1077,7 +1077,7 @@ body > [data-popper-placement] {
 .status {
   padding: 16px;
   min-height: 54px;
-  border-bottom: 1px solid lighten($ui-base-color, 8%);
+  border-bottom: 1px solid lighten($ui-base-color, 12%);
   cursor: auto;
 
   @keyframes fade {
@@ -2276,7 +2276,8 @@ $ui-header-height: 55px;
   flex-direction: column;
 
   > .scrollable {
-    background: $ui-base-color;
+    //background: $ui-base-color;
+    background: $gray-shade-2;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
@@ -3945,7 +3946,8 @@ a.status-card {
 .column-header {
   display: flex;
   font-size: 16px;
-  background: $ui-base-color;
+  // background: $ui-base-color;
+  background: $gray-shade-3;
   border-bottom: 1px solid lighten($ui-base-color, 8%);
   border-radius: 4px 4px 0 0;
   flex: 0 0 auto;
@@ -4004,7 +4006,8 @@ a.status-card {
 }
 
 .column-header__button {
-  background: $ui-base-color;
+  // background: $ui-base-color;
+  background: lighten($ui-base-color, 4%);
   border: 0;
   color: $darker-text-color;
   cursor: pointer;
@@ -4016,7 +4019,7 @@ a.status-card {
   }
 
   &:hover {
-    color: lighten($darker-text-color, 4%);
+    color: lighten($darker-text-color, 7%);
   }
 
   &:focus-visible {
@@ -4025,10 +4028,11 @@ a.status-card {
 
   &.active {
     color: $primary-text-color;
-    background: lighten($ui-base-color, 4%);
+    background: lighten($ui-base-color, 8%);
 
     &:hover {
       color: $primary-text-color;
+      background: lighten($ui-base-color, 8%);
     }
   }
 
@@ -4070,7 +4074,8 @@ a.status-card {
 }
 
 .column-header__collapsible-inner {
-  background: $ui-base-color;
+  // background: $ui-base-color;
+  background: $gray-shade-1;
   padding: 15px;
 }
 
