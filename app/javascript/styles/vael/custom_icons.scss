@@ -15,31 +15,27 @@
     background-size: 15px;
 }
 
-.star-icon .icon-button {
-    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-    color: var(--white) !important;
-    cursor: pointer;
-}
+// .star-icon .icon-button {
+//     background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+//     // color: var(--white) !important;
+//     cursor: pointer;
+// }
 
 .star-icon .icon-button:hover {
-    color: var(--white) !important;
+    // color: var(--white) !important;
     cursor: pointer;
 }
 
 .icon-button i.fa-star {
-    background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-    // stroke: $white !important;
-    color: var(--white) !important;
+    background-color: red;
+    mask-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    -webkit-mask-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    // background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
 .icon-button i.fa-star::before {
     display: none;
 }
-
-// // test
-// .icon-button .star-icon {
-//     color: var(--white) !important;
-// }
 
 .icon-button:hover i.fa-star {
     background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
@@ -66,36 +62,3 @@
 .detailed-status__link i.fa-star::before {
     display: none !important;
 }
-
-// .text-icon-button {
-//     color: var(--gray-shade-6);
-// }
-
-// .text-icon-button.active {
-//     color: var(--gold);
-// }
-
-// .status__action-bar-button[aria-label="Favorite"] {
-//     stroke: $white !important;
-//     color: $white !important;
-//     background-color: $white !important;
-// }
-
-// .icon-button,
-// .icon-button.inverted {
-//     color: var(--white) !important;
-// }
-
-// .icon-button.active {
-//     color: var(--gold) !important;
-// }
-
-// .icon-button:hover {
-//     color: var(--gold) !important;
-//     cursor: pointer;
-//     background-color: rgba(0, 0, 0, 0);
-// }
-
-// .text-icon-button {
-//     color: var(--gray-shade-6);
-// }
