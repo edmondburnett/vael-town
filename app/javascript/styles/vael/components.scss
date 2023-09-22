@@ -5132,6 +5132,7 @@ a.status-card {
   padding-inline-end: 30px;
   line-height: 18px;
   font-size: 16px;
+  background: $gray-shade-2;
 
   &::placeholder {
     color: lighten($darker-text-color, 4%);
@@ -5148,7 +5149,7 @@ a.status-card {
   }
 
   &:focus {
-    background: lighten($ui-base-color, 4%);
+    background: lighten($gray-shade-2, 2%);
   }
 }
 
