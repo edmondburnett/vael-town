@@ -3009,6 +3009,10 @@ $ui-header-height: 55px;
   }
 }
 
+.navigation-panel__logo hr {
+  display: none;
+}
+
 .navigation-panel,
 .compose-panel {
   hr {
