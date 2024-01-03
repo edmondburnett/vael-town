@@ -53,10 +53,21 @@ class NavigationPanel extends Component {
     const { intl } = this.props;
     const { signedIn, disabledAccountId } = this.context.identity;
 
+    let banner = undefined;
+
+    if(transientSingleColumn)
+      banner = (<div className='switch-to-advanced'>
+        {intl.formatMessage(messages.openedInClassicInterface)}
+        {" "}
+        <a href={`/deck${location.pathname}`} className='switch-to-advanced__toggle'>
+          {intl.formatMessage(messages.advancedInterface)}
+        </a>
+      </div>);
+
     return (
       <div className='navigation-panel'>
         <div className='navigation-panel__logo'>
-          {/* <Link to='/' className='column-link column-link--logo'><WordmarkLogo /></Link> */}
+          {/* <Link to='/' className='column-link column-link--logo'><WordmarkLogo /></Link> {!banner && <hr />} */}
 
           {transientSingleColumn ? (
             <div class='switch-to-advanced'>
@@ -70,6 +81,12 @@ class NavigationPanel extends Component {
             <hr />
           )}
         </div>
+
+        {banner &&
+          <div class='navigation-panel__banner'>
+            {banner}
+          </div>
+        }
 
         {signedIn && (
           <>
