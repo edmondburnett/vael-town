@@ -83,11 +83,12 @@ class Rack::Attack
   end
 
   # added custom rate limit for authenticated vael users
-  throttle('throttle_authenticated_media_proxy', limit: 100, period: 5.minutes) do |req|
-    req.authenticated_user_id if req.path.start_with?('/media_proxy')
-  end
+  #throttle('throttle_authenticated_media_proxy', limit: 100, period: 5.minutes) do |req|
+  #  req.authenticated_user_id if req.path.start_with?('/media_proxy')
+  #end
 
-  throttle('throttle_media_proxy', limit: 30, period: 10.minutes) do |req|
+  # was: limit 30, period 10
+  throttle('throttle_media_proxy', limit: 250, period: 1.minutes) do |req|
     req.throttleable_remote_ip if req.path.start_with?('/media_proxy')
   end
 
