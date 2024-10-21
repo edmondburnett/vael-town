@@ -1,5 +1,67 @@
 // vael custom
 
+.about {
+  &__footer {
+    color: $dark-text-color;
+  }
+
+  &__header {
+    &__hero {
+      background: lighten($ui-base-color, 4%);
+    }
+
+    p {
+      color: $darker-text-color;
+    }
+  }
+
+  &__meta {
+    background: lighten($ui-base-color, 4%);
+
+    &__divider {
+      border-color: lighten($ui-base-color, 8%);
+    }
+
+    h4 {
+      color: $darker-text-color;
+    }
+  }
+
+  &__section {
+    &__title {
+      background: lighten($ui-base-color, 4%);
+      color: $highlight-text-color;
+    }
+
+    &__body {
+      border: 1px solid lighten($ui-base-color, 4%);
+    }
+  }
+
+  &__domain-blocks {
+    background: darken($ui-base-color, 4%);
+    border: 1px solid lighten($ui-base-color, 4%);
+    border-radius: 4px;
+
+    &__domain {
+      border-bottom: 1px solid lighten($ui-base-color, 4%);
+      color: $darker-text-color;
+
+      &:nth-child(2n) {
+        background: darken($ui-base-color, 2%);
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      h6 {
+        color: $secondary-text-color;
+      }
+    }
+  }
+}
+
 .navigation-bar {
   color: $darker-text-color;
 
