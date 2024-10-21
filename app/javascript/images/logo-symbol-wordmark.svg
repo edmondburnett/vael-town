@@ -14,7 +14,6 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs5" />
-  <use xlink:href="#logo-symbol-wordmark"/>
   <sodipodi:namedview
      id="namedview4"
      pagecolor="#ffffff"
@@ -66,6 +65,7 @@
       </linearGradient>
     </defs>
   </symbol>
+  <use xlink:href="#logo-symbol-wordmark"/>
   <path
      d="m 102.94288,59.598268 v 0 0 0 -53.1851444 0 0 h 26.59259 m 0,53.1851444 v 0 h -26.59259 m -69.805485,0 v 0 L 6.5448166,6.4131236 M 33.137395,59.598268 v 0 L 59.729968,6.4131236 m 16.620355,0 v 0 L 49.757744,59.598268 M 89.646614,6.4131236 v 0 53.1851444 M 76.350323,6.4131236 v 0 H 89.646614 V 59.598268 m 79.777716,0 v 0 h -26.59258 m 0,-53.1851444 v 0 53.1851444 M 102.94288,33.005697 v 0 h 9.97223"
      style="fill:none;stroke:#ffffff;stroke-width:10.4155;stroke-linecap:round;stroke-linejoin:miter"
