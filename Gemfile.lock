@@ -26,42 +26,15 @@ GEM
       net-imap
       net-pop
       net-smtp
-<<<<<<< HEAD
-    actionmailer (7.0.8.4)
-      actionpack (= 7.0.8.4)
-      actionview (= 7.0.8.4)
-      activejob (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-=======
     actionmailer (7.1.4)
       actionpack (= 7.1.4)
       actionview (= 7.1.4)
       activejob (= 7.1.4)
       activesupport (= 7.1.4)
->>>>>>> v4.3.0
       mail (~> 2.5, >= 2.5.4)
       net-imap
       net-pop
       net-smtp
-<<<<<<< HEAD
-      rails-dom-testing (~> 2.0)
-    actionpack (7.0.8.4)
-      actionview (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-      rack (~> 2.0, >= 2.2.4)
-      rack-test (>= 0.6.3)
-      rails-dom-testing (~> 2.0)
-      rails-html-sanitizer (~> 1.0, >= 1.2.0)
-    actiontext (7.0.8.4)
-      actionpack (= 7.0.8.4)
-      activerecord (= 7.0.8.4)
-      activestorage (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-      globalid (>= 0.6.0)
-      nokogiri (>= 1.8.5)
-    actionview (7.0.8.4)
-      activesupport (= 7.0.8.4)
-=======
       rails-dom-testing (~> 2.2)
     actionpack (7.1.4)
       actionview (= 7.1.4)
@@ -82,7 +55,6 @@ GEM
       nokogiri (>= 1.8.5)
     actionview (7.1.4)
       activesupport (= 7.1.4)
->>>>>>> v4.3.0
       builder (~> 3.1)
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
@@ -92,24 +64,6 @@ GEM
       activemodel (>= 4.1)
       case_transform (>= 0.2)
       jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
-<<<<<<< HEAD
-    activejob (7.0.8.4)
-      activesupport (= 7.0.8.4)
-      globalid (>= 0.3.6)
-    activemodel (7.0.8.4)
-      activesupport (= 7.0.8.4)
-    activerecord (7.0.8.4)
-      activemodel (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-    activestorage (7.0.8.4)
-      actionpack (= 7.0.8.4)
-      activejob (= 7.0.8.4)
-      activerecord (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-      marcel (~> 1.0)
-      mini_mime (>= 1.1.0)
-    activesupport (7.0.8.4)
-=======
     activejob (7.1.4)
       activesupport (= 7.1.4)
       globalid (>= 0.3.6)
@@ -128,7 +82,6 @@ GEM
     activesupport (7.1.4)
       base64
       bigdecimal
->>>>>>> v4.3.0
       concurrent-ruby (~> 1.0, >= 1.0.2)
       connection_pool (>= 2.2.5)
       drb
@@ -170,15 +123,9 @@ GEM
       faraday_middleware (~> 1.0, >= 1.0.0.rc1)
       net-http-persistent (~> 4.0)
       nokogiri (~> 1, >= 1.10.8)
-<<<<<<< HEAD
-    base64 (0.1.1)
-    bcp47_spec (0.2.1)
-    bcrypt (3.1.18)
-=======
     base64 (0.2.0)
     bcp47_spec (0.2.1)
     bcrypt (3.1.20)
->>>>>>> v4.3.0
     better_errors (2.10.1)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
@@ -212,13 +159,8 @@ GEM
     case_transform (0.2)
       activesupport
     cbor (0.5.9.8)
-<<<<<<< HEAD
-    charlock_holmes (0.7.8)
-    chewy (7.3.4)
-=======
     charlock_holmes (0.7.9)
     chewy (7.6.0)
->>>>>>> v4.3.0
       activesupport (>= 5.2)
       elasticsearch (>= 7.14.0, < 8)
       elasticsearch-dsl
@@ -245,16 +187,11 @@ GEM
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
     date (3.3.4)
-<<<<<<< HEAD
-    debug_inspector (1.1.0)
-    devise (4.9.2)
-=======
     debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
     debug_inspector (1.2.0)
     devise (4.9.4)
->>>>>>> v4.3.0
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)
@@ -287,16 +224,11 @@ GEM
       base64
       faraday (>= 1, < 3)
       multi_json
-<<<<<<< HEAD
-    encryptor (3.0.0)
-    erubi (1.12.0)
-=======
     email_spec (2.3.0)
       htmlentities (~> 4.3.3)
       launchy (>= 2.1, < 4.0)
       mail (~> 2.7)
     erubi (1.13.0)
->>>>>>> v4.3.0
     et-orbi (1.2.11)
       tzinfo
     excon (0.111.0)
@@ -330,15 +262,9 @@ GEM
       faraday (~> 1.0)
     fast_blank (1.0.1)
     fastimage (2.3.1)
-<<<<<<< HEAD
-    ffi (1.15.5)
-    ffi-compiler (1.0.1)
-      ffi (>= 1.0.0)
-=======
     ffi (1.16.3)
     ffi-compiler (1.3.2)
       ffi (>= 1.15.5)
->>>>>>> v4.3.0
       rake
     flatware (2.3.3)
       drb
@@ -357,12 +283,7 @@ GEM
     fog-openstack (1.1.3)
       fog-core (~> 2.1)
       fog-json (>= 1.0)
-<<<<<<< HEAD
-      ipaddress (>= 0.8)
-    formatador (0.3.0)
-=======
     formatador (1.1.0)
->>>>>>> v4.3.0
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -409,11 +330,7 @@ GEM
     httplog (1.7.0)
       rack (>= 2.0)
       rainbow (>= 2.0.0)
-<<<<<<< HEAD
-    i18n (1.14.5)
-=======
     i18n (1.14.6)
->>>>>>> v4.3.0
       concurrent-ruby (~> 1.0)
     i18n-tasks (1.0.14)
       activesupport (>= 4.0.2)
@@ -434,42 +351,26 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jmespath (1.6.2)
-<<<<<<< HEAD
-    json (2.6.3)
-=======
     json (2.7.2)
->>>>>>> v4.3.0
     json-canonicalization (1.0.0)
     json-jwt (1.15.3.1)
       activesupport (>= 4.2)
       aes_key_wrap
       bindata
       httpclient
-<<<<<<< HEAD
-    json-ld (3.3.1)
-=======
     json-ld (3.3.2)
->>>>>>> v4.3.0
       htmlentities (~> 4.3)
       json-canonicalization (~> 1.0)
       link_header (~> 0.0, >= 0.0.8)
       multi_json (~> 1.15)
       rack (>= 2.2, < 4)
       rdf (~> 3.3)
-<<<<<<< HEAD
-    json-ld-preloaded (3.2.2)
-      json-ld (~> 3.2)
-      rdf (~> 3.2)
-    json-schema (4.0.0)
-      addressable (>= 2.8)
-=======
       rexml (~> 3.2)
     json-ld-preloaded (3.3.0)
       json-ld (~> 3.3)
       rdf (~> 3.3)
     json-schema (5.0.0)
       addressable (~> 2.8)
->>>>>>> v4.3.0
     jsonapi-renderer (0.2.2)
     jwt (2.7.1)
     kaminari (1.2.2)
@@ -511,11 +412,7 @@ GEM
       activesupport (>= 4)
       railties (>= 4)
       request_store (~> 1.0)
-<<<<<<< HEAD
-    loofah (2.21.4)
-=======
     loofah (2.22.0)
->>>>>>> v4.3.0
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -537,13 +434,8 @@ GEM
     mime-types-data (3.2024.0820)
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
-<<<<<<< HEAD
-    minitest (5.19.0)
-    msgpack (1.7.1)
-=======
     minitest (5.25.1)
     msgpack (1.7.2)
->>>>>>> v4.3.0
     multi_json (1.15.0)
     multipart-post (2.4.1)
     mutex_m (0.2.0)
@@ -559,32 +451,15 @@ GEM
       net-protocol
     net-protocol (0.2.2)
       timeout
-<<<<<<< HEAD
-    net-scp (4.0.0)
-      net-ssh (>= 2.6.5, < 8.0.0)
-    net-smtp (0.3.4)
-      net-protocol
-    net-ssh (7.1.0)
-=======
     net-smtp (0.5.0)
       net-protocol
->>>>>>> v4.3.0
     nio4r (2.7.3)
     nokogiri (1.16.7)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-<<<<<<< HEAD
-    nsa (0.3.0)
-      activesupport (>= 4.2, < 7.2)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-      sidekiq (>= 3.5)
-      statsd-ruby (~> 1.4, >= 1.4.0)
-    oj (3.16.1)
-=======
     oj (3.16.6)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
->>>>>>> v4.3.0
     omniauth (2.1.2)
       hashie (>= 3.4.6)
       rack (>= 2.2.3)
@@ -596,11 +471,7 @@ GEM
     omniauth-rails_csrf_protection (1.0.2)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
-<<<<<<< HEAD
-    omniauth-saml (2.1.2)
-=======
     omniauth-saml (2.2.1)
->>>>>>> v4.3.0
       omniauth (~> 2.1)
       ruby-saml (~> 1.17)
     omniauth_openid_connect (0.6.1)
@@ -719,17 +590,10 @@ GEM
     parslet (2.0.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
-<<<<<<< HEAD
-    pg (1.5.5)
-    pghero (3.3.4)
-      activerecord (>= 6)
-    premailer (1.21.0)
-=======
     pg (1.5.8)
     pghero (3.6.0)
       activerecord (>= 6.1)
     premailer (1.27.0)
->>>>>>> v4.3.0
       addressable
       css_parser (>= 1.19.0)
       htmlentities (>= 4.0.0)
@@ -737,10 +601,6 @@ GEM
       actionmailer (>= 3)
       net-smtp
       premailer (~> 1.7, >= 1.7.9)
-<<<<<<< HEAD
-    private_address_check (0.5.0)
-    public_suffix (5.0.3)
-=======
     propshaft (1.1.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -749,7 +609,6 @@ GEM
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
->>>>>>> v4.3.0
     puma (6.4.3)
       nio4r (~> 2.0)
     pundit (2.4.0)
@@ -767,37 +626,15 @@ GEM
       httpclient
       json-jwt (>= 1.11.0)
       rack (>= 2.1.0)
-<<<<<<< HEAD
-    rack-protection (3.0.6)
-      rack
-    rack-proxy (0.7.6)
-=======
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
     rack-proxy (0.7.7)
->>>>>>> v4.3.0
       rack
     rack-session (1.0.2)
       rack (< 3)
     rack-test (2.1.0)
       rack (>= 1.3)
-<<<<<<< HEAD
-    rails (7.0.8.4)
-      actioncable (= 7.0.8.4)
-      actionmailbox (= 7.0.8.4)
-      actionmailer (= 7.0.8.4)
-      actionpack (= 7.0.8.4)
-      actiontext (= 7.0.8.4)
-      actionview (= 7.0.8.4)
-      activejob (= 7.0.8.4)
-      activemodel (= 7.0.8.4)
-      activerecord (= 7.0.8.4)
-      activestorage (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-      bundler (>= 1.15.0)
-      railties (= 7.0.8.4)
-=======
     rackup (1.0.0)
       rack (< 3)
       webrick
@@ -815,7 +652,6 @@ GEM
       activesupport (= 7.1.4)
       bundler (>= 1.15.0)
       railties (= 7.1.4)
->>>>>>> v4.3.0
     rails-controller-testing (1.0.5)
       actionpack (>= 5.0.1.rc1)
       actionview (>= 5.0.1.rc1)
@@ -830,32 +666,19 @@ GEM
     rails-i18n (7.0.9)
       i18n (>= 0.7, < 2)
       railties (>= 6.0.0, < 8)
-<<<<<<< HEAD
-    railties (7.0.8.4)
-      actionpack (= 7.0.8.4)
-      activesupport (= 7.0.8.4)
-      method_source
-=======
     railties (7.1.4)
       actionpack (= 7.1.4)
       activesupport (= 7.1.4)
       irb
       rackup (>= 1.0.0)
->>>>>>> v4.3.0
       rake (>= 12.2)
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
-<<<<<<< HEAD
-    rake (13.0.6)
-    rdf (3.3.1)
-      bcp47_spec (~> 0.2)
-=======
     rake (13.2.1)
     rdf (3.3.2)
       bcp47_spec (~> 0.2)
       bigdecimal (~> 3.1, >= 3.1.5)
->>>>>>> v4.3.0
       link_header (~> 0.0, >= 0.0.8)
     rdf-normalize (0.7.0)
       rdf (~> 3.3)
@@ -875,15 +698,9 @@ GEM
     responders (3.1.1)
       actionpack (>= 5.2)
       railties (>= 5.2)
-<<<<<<< HEAD
-    rexml (3.3.7)
-    rotp (6.3.0)
-    rouge (4.1.2)
-=======
     rexml (3.3.8)
     rotp (6.3.0)
     rouge (4.3.0)
->>>>>>> v4.3.0
     rpam2 (4.0.2)
     rqrcode (2.2.0)
       chunky_png (~> 1.0)
@@ -971,11 +788,8 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
-<<<<<<< HEAD
-=======
     shoulda-matchers (6.4.0)
       activesupport (>= 5.2.0)
->>>>>>> v4.3.0
     sidekiq (6.5.12)
       connection_pool (>= 2.2.5, < 3)
       rack (~> 2.0)
@@ -985,11 +799,7 @@ GEM
     sidekiq-scheduler (5.0.6)
       rufus-scheduler (~> 3.2)
       sidekiq (>= 6, < 8)
-<<<<<<< HEAD
-      tilt (>= 1.4.0)
-=======
       tilt (>= 1.4.0, < 3)
->>>>>>> v4.3.0
     sidekiq-unique-jobs (7.1.33)
       brpoplpush-redis_script (> 0.1.1, <= 2.0.0)
       concurrent-ruby (~> 1.0, >= 1.0.5)
@@ -1022,15 +832,6 @@ GEM
     temple (0.10.3)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
-<<<<<<< HEAD
-    terrapin (0.6.0)
-      climate_control (>= 0.0.3, < 1.0)
-    test-prof (1.2.3)
-    thor (1.3.1)
-    tilt (2.2.0)
-    timeout (0.4.1)
-    tpm-key_attestation (0.12.0)
-=======
     terrapin (1.0.1)
       climate_control
     test-prof (1.4.2)
@@ -1038,7 +839,6 @@ GEM
     tilt (2.4.0)
     timeout (0.4.1)
     tpm-key_attestation (0.12.1)
->>>>>>> v4.3.0
       bindata (~> 2.4)
       openssl (> 2.0)
       openssl-signature_algorithm (~> 1.0)
@@ -1102,11 +902,7 @@ GEM
     xorcist (1.1.3)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-<<<<<<< HEAD
-    zeitwerk (2.6.16)
-=======
     zeitwerk (2.6.18)
->>>>>>> v4.3.0
 
 PLATFORMS
   ruby
@@ -1178,10 +974,6 @@ DEPENDENCIES
   net-http (~> 0.4.0)
   net-ldap (~> 0.18)
   nokogiri (~> 1.15)
-<<<<<<< HEAD
-  nsa
-=======
->>>>>>> v4.3.0
   oj (~> 3.14)
   omniauth (~> 2.0)
   omniauth-cas (~> 3.0.0.beta.1)
