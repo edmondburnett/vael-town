@@ -1692,7 +1692,7 @@ en:
     aliases: Account aliases
     appearance: Appearance
     authorized_apps: Authorized apps
-    back: Back to Vael
+    back: Back to Mastodon
     delete: Account deletion
     development: Development
     edit_profile: Edit profile
@@ -1801,6 +1801,7 @@ en:
     does_not_match_previous_name: does not match the previous name
   themes:
     contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
     system: Automatic (use system theme)
   time:

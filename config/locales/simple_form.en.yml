@@ -108,7 +108,7 @@ en:
       imports:
         data: CSV file exported from another Mastodon server
       invite_request:
-        text: Please read the <a href="/about/more" target="_blank">Instance Values</a> first to determine if this community is right for you. It's very specific to our instance, and understanding it will greatly increase your chances of an invite! Include some details about yourself, your interests, and some relevant links, personal sites, or galleries (preference for links that don't require a login to view) to help us review your invite request.
+        text: This will help us review your application
       ip_block:
         comment: Optional. Remember why you added this rule.
         expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
@@ -280,7 +280,7 @@ en:
       invite:
         comment: Comment
       invite_request:
-        text: Tell us a bit about yourself!
+        text: Why do you want to join?
       ip_block:
         comment: Comment
         ip: IP
