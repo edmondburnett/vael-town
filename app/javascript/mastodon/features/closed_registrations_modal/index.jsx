@@ -32,7 +32,7 @@ class ClosedRegistrationsModal extends ImmutablePureComponent {
         <p className='prose'>
           <FormattedMessage
             id='closed_registrations_modal.description'
-            defaultMessage='Creating an account on {domain} is currently by invite-only. Please see our About page for more information on requesting an invite.'
+            defaultMessage='Creating an account on {domain} is currently not possible, but please keep in mind that you do not need an account specifically on {domain} to use Mastodon.'
             values={{ domain: <strong>{domain}</strong> }}
           />
         </p>

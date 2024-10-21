@@ -280,7 +280,6 @@ class EmojiPickerMenuImpl extends PureComponent {
     return (
       <div className={classNames('emoji-picker-dropdown__menu', { selecting: modifierOpen })} style={style} ref={this.setRef}>
         <EmojiPicker
-          theme='dark'  // vael
           perLine={8}
           emojiSize={22}
           sheetSize={32}
