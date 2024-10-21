@@ -1803,7 +1803,8 @@ en:
     does_not_match_previous_name: does not match the previous name
   themes:
     contrast: Mastodon (High contrast)
-    default: Mastodon (Dark)
+    default: vael
+    mastodon-dark: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
     system: Automatic (use system theme)
   time:
