@@ -132,6 +132,8 @@ class NavigationPanel extends Component {
       );
     }
 
+    let banner = undefined;
+
     return (
       <div className='navigation-panel'>
         <div className='navigation-panel__logo'>
