@@ -1,4 +1,4 @@
-// vael custom
+// vael custom styling, overrides mastodon-dark theme
 
 .about {
   &__footer {
@@ -59,6 +59,80 @@
         color: $secondary-text-color;
       }
     }
+  }
+}
+
+
+.column-header {
+  background: $gray-shade-3;
+  border-bottom: 1px solid lighten($ui-base-color, 8%);
+  border-radius: 4px 4px 0 0;
+
+  &>.column-header__back-button {
+    color: $highlight-text-color;
+  }
+
+  &.active {
+    .column-header__icon {
+      color: $highlight-text-color;
+      text-shadow: 0 0 10px rgba($highlight-text-color, 0.4);
+    }
+  }
+}
+
+
+.column-header__button {
+  // background: $ui-base-color;
+  background: lighten($ui-base-color, 4%);
+  border: 0;
+  color: $darker-text-color;
+
+  &:hover {
+    color: lighten($darker-text-color, 7%);
+  }
+
+  &.active {
+    color: $primary-text-color;
+    background: lighten($ui-base-color, 8%);
+
+    &:hover {
+      color: $primary-text-color;
+      background: lighten($ui-base-color, 8%);
+    }
+  }
+
+  &:disabled {
+    color: $dark-text-color;
+    cursor: default;
+  }
+}
+
+.column-header__collapsible {
+  border-bottom: 1px solid lighten($ui-base-color, 8%);
+  color: $darker-text-color;
+}
+
+.column-header__collapsible-inner {
+  // background: $ui-base-color;
+  background: $gray-shade-1;
+  padding: 15px;
+}
+
+.column-header__setting-btn {
+
+  &:hover,
+  &:focus {
+    color: $darker-text-color;
+    text-decoration: underline;
+  }
+}
+
+.column-header__issue-btn {
+  color: $warning-red;
+
+  &:hover {
+    color: $error-red;
+    text-decoration: underline;
   }
 }
 
