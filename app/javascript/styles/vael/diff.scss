@@ -653,7 +653,7 @@
   box-sizing: border-box;
   width: 100%;
   clear: both;
-  border-bottom: 6px solid lighten($ui-base-color, 8%);
+  border-bottom: 1px solid lighten($ui-base-color, 8%);
 
   &__button {
     display: inline;
@@ -686,7 +686,8 @@
 .status {
   padding: 16px;
   min-height: 54px;
-  border-bottom: 1px solid lighten($ui-base-color, 12%);
+  //border-bottom: 1px solid lighten($ui-base-color, 12%);
+  border-bottom: 6px solid darken($ui-base-color, 12%);
   cursor: auto;
 
   @keyframes fade {
