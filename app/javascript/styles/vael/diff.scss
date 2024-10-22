@@ -653,7 +653,7 @@
   box-sizing: border-box;
   width: 100%;
   clear: both;
-  border-bottom: 1px solid lighten($ui-base-color, 8%);
+  border-bottom: 6px solid lighten($ui-base-color, 8%);
 
   &__button {
     display: inline;
