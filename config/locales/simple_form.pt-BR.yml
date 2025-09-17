@@ -8,7 +8,7 @@ pt-BR:
         display_name: Seu nome completo ou apelido.
         fields: Sua página inicial, pronomes, idade ou qualquer coisa que quiser.
         indexable: Suas publicações públicas podem aparecer nos resultados da pesquisa em Mastodon. As pessoas que interagiram com suas publicações podem conseguir pesquisá-las independentemente disso.
-        note: 'Você pode @mencionar outras pessoas ou usar #hashtags.'
+        note: "Você pode @mencionar outras pessoas ou usar #hashtags."
         show_collections: As pessoas podem ver seus seguidores e quem você está seguindo. Os perfis que você seguir saberão que você os segue independentemente do que selecionar.
         unlocked: As pessoas poderão te seguir sem solicitar aprovação. Desmarque caso você queira revisar as solicitações.
       account_alias:
@@ -56,7 +56,7 @@ pt-BR:
         scopes: Quais APIs o aplicativo vai ter permissão de acessar. Se você selecionar uma autorização de alto nível, você não precisa selecionar individualmente os outros.
         setting_aggregate_reblogs: Não mostrar novos impulsos para publicações que já foram impulsionadas recentemente (afeta somente os impulsos mais recentes)
         setting_always_send_emails: Normalmente, as notificações por e-mail não serão enviadas enquanto você estiver usando ativamente o Mastodon
-        setting_default_quote_policy: Usuários mencionados sempre têm permissão para citar. Esta configuração só terá efeito para postagens criadas com a próxima versão do Mastodon, mas você pode selecionar sua preferência em preparação
+        setting_default_quote_policy: Esta configuração só terá efeito para posts criados com a próxima versão do Mastodon, mas você pode selecionar sua preferência na preparação.
         setting_default_sensitive: Mídia sensível está oculta por padrão e pode ser revelada com um clique
         setting_display_media_default: Sempre ocultar mídia sensível
         setting_display_media_hide_all: Sempre ocultar todas as mídias
@@ -72,7 +72,7 @@ pt-BR:
         domain: Este pode ser o nome de domínio que aparece no endereço de e-mail ou no registro MX que ele utiliza. Eles serão verificados após a inscrição.
         with_dns_records: Será feita uma tentativa de resolver os registros DNS do domínio em questão e os resultados também serão colocados na lista negra
       featured_tag:
-        name: 'Aqui estão algumas hashtags usadas recentemente:'
+        name: "Aqui estão algumas hashtags usadas recentemente:"
       filters:
         action: Escolher qual ação executar quando uma publicação corresponder ao filtro
         actions:
@@ -126,7 +126,7 @@ pt-BR:
         hint: Opcional. Forneça mais detalhes sobre a regra
         text: Descreva uma regra ou requisito para os usuários neste servidor. Tente mantê-la curta e simples.
       sessions:
-        otp: 'Digite o código de dois fatores gerado pelo aplicativo no seu celular ou use um dos códigos de recuperação:'
+        otp: "Digite o código de dois fatores gerado pelo aplicativo no seu celular ou use um dos códigos de recuperação:"
         webauthn: Se for uma chave USB tenha certeza de inseri-la e, se necessário, tocar nela.
       settings:
         indexable: Sua página de perfil pode aparecer nos resultados de pesquisa no Google, Bing e outros.
@@ -149,6 +149,9 @@ pt-BR:
         min_age: Não deve ter menos que a idade mínima exigida pelas suas leis locais.
       user:
         chosen_languages: Apenas as publicações dos idiomas selecionados serão exibidas nas linhas públicas
+        date_of_birth:
+          one: Precisamos ter certeza de que você tem, no mínimo, %{count} anos para usar o %{domain} Não armazenaremos essa informação.
+          other: Temos que ter certeza de que você é pelo menos %{count} para usar o %{domain} Não vamos armazenar isso.
         role: A função controla quais permissões o usuário tem.
       user_role:
         color: Cor a ser usada para o cargo em toda a interface do usuário, como RGB no formato hexadecimal
@@ -370,7 +373,7 @@ pt-BR:
         events: Eventos habilitados
         template: Conteúdo JSON
         url: URL do Endpoint
-    'no': Não
+    "no": Não
     not_recommended: Não recomendado
     overridden: Sobreposto
     recommended: Recomendado
@@ -380,4 +383,4 @@ pt-BR:
     title:
       sessions:
         webauthn: Utilize uma das suas chaves de segurança para entrar
-    'yes': Sim
+    "yes": Sim

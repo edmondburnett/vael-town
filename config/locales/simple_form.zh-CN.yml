@@ -8,7 +8,7 @@ zh-CN:
         display_name: 你的全名或昵称。
         fields: 你的主页、人称代词、年龄，以及任何你想要添加的内容。
         indexable: 你的公开嘟文会出现在 Mastodon 的搜索结果中。无论是否勾选，与你的嘟文有过交互的人都可能通过搜索找到它们。
-        note: '你可以提及 @其他人 或 #话题 。'
+        note: "你可以提及 @其他人 或 #话题 。"
         show_collections: 人们将能够浏览你的关注和追随者。你关注的人会看到你关注他们。
         unlocked: 人们将能够在不请求批准的情况下关注你。如果你希望审核关注请求并选择接受或拒绝新的关注者，请取消勾选此项。
       account_alias:
@@ -56,7 +56,7 @@ zh-CN:
         scopes: 哪些 API 被允许使用。如果你勾选了更高一级的范围，就不用单独选中子项目了。
         setting_aggregate_reblogs: 不显示最近已经被转嘟过的嘟文(只会影响新收到的转嘟)
         setting_always_send_emails: 一般情况下，如果你活跃使用 Mastodon，我们不会向你发送电子邮件通知
-        setting_default_quote_policy: 总是允许引用被提及的用户。此设置将仅对下个Mastodon版本创建的帖子生效，但您可以在准备中选择您的偏好
+        setting_default_quote_policy: 此设置将仅对下个Mastodon版本创建的帖子生效，但您可以在准备中选择您的偏好。
         setting_default_sensitive: 敏感内容默认隐藏，并在点击后显示
         setting_display_media_default: 隐藏被标记为敏感内容的媒体
         setting_display_media_hide_all: 始终隐藏媒体
@@ -150,7 +150,7 @@ zh-CN:
       user:
         chosen_languages: 仅选中语言的嘟文会出现在公共时间线上（全不选则显示所有语言的嘟文）
         date_of_birth:
-          other: 我们必须确保您至少有 %{count} 岁才能使用 %{domain}。我们不会存储此信息。
+          other: 我们必须确保您至少年满 %{count} 岁才能使用 %{domain}。我们不会存储此信息。
         role: 角色用于控制用户拥有的权限。
       user_role:
         color: 在界面各处用于标记该角色的颜色，以十六进制 RGB 格式表示
@@ -372,7 +372,7 @@ zh-CN:
         events: 已启用事件
         template: Payload 模板
         url: 端点 URL
-    'no': 否
+    "no": 否
     not_recommended: 不推荐
     overridden: 已覆盖
     recommended: 推荐
@@ -382,4 +382,4 @@ zh-CN:
     title:
       sessions:
         webauthn: 使用你的安全密钥登录
-    'yes': 是
+    "yes": 是
