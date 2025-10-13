@@ -8,7 +8,7 @@ sq:
         display_name: Emri juaj i plotë, ose emri juaj lojcak.
         fields: Faqja juaj hyrëse, përemra, moshë, ç’të keni qejf.
         indexable: Postimet tuaja publike mund të shfaqen në përfundime kërkimesh në Mastodon. Pavarësisht nga kjo, personat që kanë ndërvepruar me postimet tuaja, mund të jenë në gjendje të kërkojnë për to.
-        note: 'Mundeni të @përmendni persona apo #hashtagë të tjerë.'
+        note: "Mundeni të @përmendni persona apo #hashtagë të tjerë."
         show_collections: Njerëzit do të jenë në gjendje të shfletojnë ndjekjet dhe ndjekësit tuaj. Njerëzit që ndiqni, do ta shohin që i ndiqni.
         unlocked: Njerëzit do të jenë në gjendje t’ju ndjekin pa u dashur miratim. Hiqjani shenjën, nëse doni të shqyrtoni kërkesa ndjekjeje dhe të zgjidhni pranimin apo hedhjen poshtë e ndjekësve të rinj.
       account_alias:
@@ -56,7 +56,7 @@ sq:
         scopes: Cilat API do të lejohen të përdorin aplikacioni. Nëse përzgjidhni një shkallë të epërme, nuk ju duhet të përzgjidhni individualet një nga një.
         setting_aggregate_reblogs: Mos shfaq përforcime të reja për mesazhe që janë përforcuar tani së fundi (prek vetëm përforcime të marra rishtas)
         setting_always_send_emails: Normalisht s’do të dërgohen njoftime, kur përdorni aktivisht Mastodon-in
-        setting_default_quote_policy: Përdoruesit e përmendur lejohen përherë të citojnë. Ky rregullim do të ketë efekt vetëm për postime të krijuar me versionin pasues të Mastodon-it, por mund të përzgjidhni paraprakisht parapëlqimin tuaj
+        setting_default_quote_policy: Ky rregullim do të ketë efekt vetëm për postime të krijuar me versionin pasues të Mastodon-it, por mund të përzgjidhni parapëlqimin tuaj paraprakisht.
         setting_default_sensitive: Media rezervat fshihet, si parazgjedhje, dhe mund të shfaqet me një klikim
         setting_display_media_default: Fshih media me shenjën rezervat
         setting_display_media_hide_all: Fshih përherë mediat
@@ -72,7 +72,7 @@ sq:
         domain: Ky mund të jetë emri i përkatësisë që shfaqet te adresa email, ose zëri MX që përdor. Do të kontrollohen gjatë regjistrimit.
         with_dns_records: Do të bëhet një përpjekje për ftillimin e zërave DNS të përkatësisë së dhënë dhe do të futen në listë bllokimesh edhe përfundimet
       featured_tag:
-        name: 'Ja disa nga hashtag-ët që përdorët tani afër:'
+        name: "Ja disa nga hashtag-ët që përdorët tani afër:"
       filters:
         action: Zgjidhni cili veprim të kryhet, kur një postim ka përputhje me një filtër
         actions:
@@ -126,7 +126,7 @@ sq:
         hint: Opsionale. Jepni më tepër hollësi rreth këtij rregulli
         text: Përshkruani një rregull ose një domosdoshmëri për përdoruesit në këtë shërbyes. Përpiquni të jetë i shkurtër dhe i thjeshtë
       sessions:
-        otp: 'Jepni kodin dyfaktorësh të prodhuar nga aplikacioni i telefonit tuaj ose përdorni një nga kodet tuaj të rikthimeve:'
+        otp: "Jepni kodin dyfaktorësh të prodhuar nga aplikacioni i telefonit tuaj ose përdorni një nga kodet tuaj të rikthimeve:"
         webauthn: Nëse është një diskth USB, sigurohuni se e keni futur dhe, në qoftë e nevojshme, prekeni.
       settings:
         indexable: Faqja e profilit tuaj mund të shfaqet në përfundime kërkimi në Google, Bing dhe të tjerë.
@@ -148,6 +148,9 @@ sq:
         min_age: S’duhet të jetë nën moshën minimum të domosdoshme nga ligjet në juridiksionin tuaj.
       user:
         chosen_languages: Në iu vëntë shenjë, te rrjedha kohore publike do të shfaqen vetëm mesazhe në gjuhët e përzgjedhura
+        date_of_birth:
+          one: Na duhet të sigurohemi se jeni të paktën %{count} që të përdorni %{domain}. S’do ta depozitojmë këtë.
+          other: Na duhet të sigurohemi se jeni të paktën %{count} që të përdorni %{domain}. S’do ta depozitojmë këtë.
         role: Roli kontrollon cilat leje ka përdoruesi.
       user_role:
         color: Ngjyrë për t’u përdorur për rolin nëpër UI, si RGB në format gjashtëmbëdhjetësh
@@ -369,7 +372,7 @@ sq:
         events: Akte të aktivizuar
         template: Gjedhe ngarkese
         url: URL pikëmbarimi
-    'no': Jo
+    "no": Jo
     not_recommended: Jo e këshilluar
     overridden: I anashkaluar
     recommended: E rekomanduar
@@ -379,4 +382,4 @@ sq:
     title:
       sessions:
         webauthn: Që të bëhet hyrja, përdorni një nga kyçet tuaj të sigurisë
-    'yes': Po
+    "yes": Po
