@@ -189,7 +189,7 @@ const startServer = async () => {
       // Unfortunately for using the on('upgrade') setup, we need to manually
       // write a HTTP Response to the Socket to close the connection upgrade
       // attempt, so the following code is to handle all of that.
-      const { statusCode, errorMessage } = extractErrorStatusAndMessage(err);
+      const {statusCode, errorMessage } = extractErrorStatusAndMessage(err);
 
       /** @type {Record<string, string | number | import('pino-http').ReqId>} */
       const headers = {
@@ -391,8 +391,8 @@ const startServer = async () => {
    */
   const accountFromRequest = (req) => new Promise((resolve, reject) => {
     const authorization = req.headers.authorization;
-    const location = req.url ? url.parse(req.url, true) : undefined;
-    const accessToken = location?.query.access_token || req.headers['sec-websocket-protocol'];
+    const location      = req.url ? url.parse(req.url, true) : undefined;
+    const accessToken   = location?.query.access_token || req.headers['sec-websocket-protocol'];
 
     if (!authorization && !accessToken) {
       reject(new AuthenticationError('Missing access token'));
@@ -414,26 +414,26 @@ const startServer = async () => {
     const onlyMedia = isTruthy(query.only_media);
 
     switch (path) {
-      case '/api/v1/streaming/user':
-        return 'user';
-      case '/api/v1/streaming/user/notification':
-        return 'user:notification';
-      case '/api/v1/streaming/public':
-        return onlyMedia ? 'public:media' : 'public';
-      case '/api/v1/streaming/public/local':
-        return onlyMedia ? 'public:local:media' : 'public:local';
-      case '/api/v1/streaming/public/remote':
-        return onlyMedia ? 'public:remote:media' : 'public:remote';
-      case '/api/v1/streaming/hashtag':
-        return 'hashtag';
-      case '/api/v1/streaming/hashtag/local':
-        return 'hashtag:local';
-      case '/api/v1/streaming/direct':
-        return 'direct';
-      case '/api/v1/streaming/list':
-        return 'list';
-      default:
-        return undefined;
+    case '/api/v1/streaming/user':
+      return 'user';
+    case '/api/v1/streaming/user/notification':
+      return 'user:notification';
+    case '/api/v1/streaming/public':
+      return onlyMedia ? 'public:media' : 'public';
+    case '/api/v1/streaming/public/local':
+      return onlyMedia ? 'public:local:media' : 'public:local';
+    case '/api/v1/streaming/public/remote':
+      return onlyMedia ? 'public:remote:media' : 'public:remote';
+    case '/api/v1/streaming/hashtag':
+      return 'hashtag';
+    case '/api/v1/streaming/hashtag/local':
+      return 'hashtag:local';
+    case '/api/v1/streaming/direct':
+      return 'direct';
+    case '/api/v1/streaming/list':
+      return 'list';
+    default:
+      return undefined;
     }
   };
 
@@ -570,7 +570,7 @@ const startServer = async () => {
       return;
     }
 
-    const { statusCode, errorMessage } = extractErrorStatusAndMessage(err);
+    const {statusCode, errorMessage } = extractErrorStatusAndMessage(err);
 
     res.writeHead(statusCode, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ error: errorMessage }));
@@ -739,8 +739,8 @@ const startServer = async () => {
                         FROM mutes
                         WHERE account_id = $1
                           AND target_account_id IN (${placeholders(targetAccountIds, 2)})`, [req.accountId, payload.
-            // @ts-expect-error
-            account.id].concat(targetAccountIds)),
+                          // @ts-expect-error
+                          account.id].concat(targetAccountIds)),
         ];
 
         if (accountDomain) {
@@ -974,7 +974,7 @@ const startServer = async () => {
 
     ws.send(message, (/** @type {Error|undefined} */ err) => {
       if (err) {
-        req.log.error({ err }, `Failed to send to websocket`);
+        req.log.error({err}, `Failed to send to websocket`);
       }
     });
   };
@@ -1018,7 +1018,7 @@ const startServer = async () => {
       // @ts-ignore
       streamFrom(channelIds, req, req.log, onSend, onEnd, 'eventsource', options);
     }).catch(err => {
-      const { statusCode, errorMessage } = extractErrorStatusAndMessage(err);
+      const {statusCode, errorMessage } = extractErrorStatusAndMessage(err);
 
       res.log.info({ err }, 'Eventsource subscription error');
 
@@ -1072,81 +1072,81 @@ const startServer = async () => {
     };
 
     switch (name) {
-      case 'user':
+    case 'user':
+      resolve({
+        channelIds: channelsForUserStream(req),
+        options: { needsFiltering: false },
+      });
+
+      break;
+    case 'user:notification':
+      resolve({
+        channelIds: [`timeline:${req.accountId}:notifications`],
+        options: { needsFiltering: false },
+      });
+
+      break;
+    case 'public':
+      resolveFeed('public', 'timeline:public', { needsFiltering: true });
+      break;
+    case 'public:local':
+      resolveFeed('public', 'timeline:public:local', { needsFiltering: true });
+      break;
+    case 'public:remote':
+      resolveFeed('public', 'timeline:public:remote', { needsFiltering: true });
+      break;
+    case 'public:media':
+      resolveFeed('public', 'timeline:public:media', { needsFiltering: true });
+      break;
+    case 'public:local:media':
+      resolveFeed('public', 'timeline:public:local:media', { needsFiltering: true });
+      break;
+    case 'public:remote:media':
+      resolveFeed('public', 'timeline:public:remote:media', { needsFiltering: true });
+      break;
+    case 'direct':
+      resolve({
+        channelIds: [`timeline:direct:${req.accountId}`],
+        options: { needsFiltering: false },
+      });
+
+      break;
+    case 'hashtag':
+      if (!params.tag) {
+        reject(new RequestError('Missing tag name parameter'));
+        return;
+      }
+
+      resolveFeed('hashtag', `timeline:hashtag:${normalizeHashtag(params.tag)}`, { needsFiltering: true });
+
+      break;
+    case 'hashtag:local':
+      if (!params.tag) {
+        reject(new RequestError('Missing tag name parameter'));
+        return;
+      }
+
+      resolveFeed('hashtag', `timeline:hashtag:${normalizeHashtag(params.tag)}:local`, { needsFiltering: true });
+
+      break;
+    case 'list':
+      if (!params.list) {
+        reject(new RequestError('Missing list name parameter'));
+        return;
+      }
+
+      authorizeListAccess(params.list, req).then(() => {
         resolve({
-          channelIds: channelsForUserStream(req),
+          channelIds: [`timeline:list:${params.list}`],
           options: { needsFiltering: false },
         });
+      }).catch(() => {
+        reject(new AuthenticationError('Not authorized to stream this list'));
+      });
 
-        break;
-      case 'user:notification':
-        resolve({
-          channelIds: [`timeline:${req.accountId}:notifications`],
-          options: { needsFiltering: false },
-        });
-
-        break;
-      case 'public':
-        resolveFeed('public', 'timeline:public', { needsFiltering: true });
-        break;
-      case 'public:local':
-        resolveFeed('public', 'timeline:public:local', { needsFiltering: true });
-        break;
-      case 'public:remote':
-        resolveFeed('public', 'timeline:public:remote', { needsFiltering: true });
-        break;
-      case 'public:media':
-        resolveFeed('public', 'timeline:public:media', { needsFiltering: true });
-        break;
-      case 'public:local:media':
-        resolveFeed('public', 'timeline:public:local:media', { needsFiltering: true });
-        break;
-      case 'public:remote:media':
-        resolveFeed('public', 'timeline:public:remote:media', { needsFiltering: true });
-        break;
-      case 'direct':
-        resolve({
-          channelIds: [`timeline:direct:${req.accountId}`],
-          options: { needsFiltering: false },
-        });
-
-        break;
-      case 'hashtag':
-        if (!params.tag) {
-          reject(new RequestError('Missing tag name parameter'));
-          return;
-        }
-
-        resolveFeed('hashtag', `timeline:hashtag:${normalizeHashtag(params.tag)}`, { needsFiltering: true });
-
-        break;
-      case 'hashtag:local':
-        if (!params.tag) {
-          reject(new RequestError('Missing tag name parameter'));
-          return;
-        }
-
-        resolveFeed('hashtag', `timeline:hashtag:${normalizeHashtag(params.tag)}:local`, { needsFiltering: true });
-
-        break;
-      case 'list':
-        if (!params.list) {
-          reject(new RequestError('Missing list name parameter'));
-          return;
-        }
-
-        authorizeListAccess(params.list, req).then(() => {
-          resolve({
-            channelIds: [`timeline:list:${params.list}`],
-            options: { needsFiltering: false },
-          });
-        }).catch(() => {
-          reject(new AuthenticationError('Not authorized to stream this list'));
-        });
-
-        break;
-      default:
-        reject(new RequestError('Unknown stream type'));
+      break;
+    default:
+      reject(new RequestError('Unknown stream type'));
     }
   });
 
@@ -1200,7 +1200,7 @@ const startServer = async () => {
         stopHeartbeat,
       };
     }).catch(err => {
-      const { statusCode, errorMessage } = extractErrorStatusAndMessage(err);
+      const {statusCode, errorMessage } = extractErrorStatusAndMessage(err);
 
       logger.error({ err }, 'Websocket subscription error');
 
@@ -1249,7 +1249,7 @@ const startServer = async () => {
     channelNameToIds(request, channelName, params).then(({ channelIds }) => {
       removeSubscription(session, channelIds);
     }).catch(err => {
-      logger.error({ err }, 'Websocket unsubscribe error');
+      logger.error({err}, 'Websocket unsubscribe error');
 
       // If we have a socket that is alive and open still, send the error back to the client:
       if (websocket.isAlive && websocket.readyState === websocket.OPEN) {

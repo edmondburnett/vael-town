@@ -605,12 +605,12 @@ nan:
       created_msg: 成功加添新ê IP規則
       delete: Thâi掉
       expires_in:
-        "1209600": 2 禮拜
-        "15778476": 6個月
-        "2629746": 1 個月
-        "31556952": 1 年
-        "86400": 1 kang
-        "94670856": 3 年
+        '1209600': 2 禮拜
+        '15778476': 6個月
+        '2629746': 1 個月
+        '31556952': 1 年
+        '86400': 1 kang
+        '94670856': 3 年
       new:
         title: 建立新ê IP規則
       no_ip_block_selected: 因為無揀任何IP規則，所以lóng無改變
@@ -685,11 +685,11 @@ nan:
         placeholder: 描述有行siánn物行動，á是其他關聯ê更新……
         title: 筆記
       notes_description_html: 檢視á是留筆記hōo別ê管理者kap未來ê家己
-      processed_msg: "檢舉 #%{id} 處理成功ah"
+      processed_msg: '檢舉 #%{id} 處理成功ah'
       quick_actions_description_html: 緊行行動，á是giú kàu下kha，看檢舉ê內容：
       remote_user_placeholder: tuì %{instance} 來ê遠距離用者
       reopen: 重頭phah開檢舉
-      report: "檢舉 #%{id}"
+      report: '檢舉 #%{id}'
       reported_account: 受檢舉ê口座
       reported_by: 檢舉人
       reported_with_application: 用應用程式檢舉
@@ -710,7 +710,7 @@ nan:
           mark_as_sensitive_html: Kā冒犯êPO文ê媒體標做敏感
           silence_html: Kā in ê個人資料kap內容標做kan-ta有跟tuè ê，á是手動tshiau伊ê個人檔案ê，通看見，來嚴嚴限制 <strong>@%{acct}</strong> ê傳播範圍
           suspend_html: Kā <strong>@%{acct}</strong> 停止權限，koh kā in ê 個人資料kap內容標做bē當用，kap bē當hām in互動
-        close_report: "Kā 檢舉報告 #%{id} 標做解決ah"
+        close_report: 'Kā 檢舉報告 #%{id} 標做解決ah'
         close_reports_html: Kā <strong>ta̍k ê</strong>tuì <strong>@%{acct}</strong> ê檢舉標做解決ah
         delete_data_html: Tuì tann起30kang以後，thâi掉 <strong>@%{acct}</strong> ê個人資料kap內容，除非佇tsit ê期限進前，取消停止in ê權限
         preview_preamble_html: "<strong>@%{acct}</strong> ē收著警告，包含下kha ê內容："
@@ -883,7 +883,7 @@ nan:
       back_to_account: Tńg去口座ê頁
       back_to_report: Tńg去檢舉ê頁
       batch:
-        add_to_report: "加kàu檢舉 #%{id}"
+        add_to_report: '加kàu檢舉 #%{id}'
         remove_from_report: Tuì檢舉suá掉
         report: 檢舉
       contents: 內容
@@ -1080,7 +1080,7 @@ nan:
         peaked_on_and_decaying: 佇 %{date} 日上烘，tsit-má teh退火
         title: 趨勢ê hashtag
         trendable: 通刊tī趨勢
-        trending_rank: "趨勢 #%{rank}"
+        trending_rank: '趨勢 #%{rank}'
         usable: Ē當用
         usage_comparison: Tī kin-á日hōo %{today} ê lâng用，比較tsa-hng有 %{yesterday} ê
         used_by_over_week:
