@@ -1,7 +1,7 @@
 ---
 az:
   about:
-    about_mastodon_html: 'Gələcəyin sosial şəbəkəsi: Reklam yoxdur, korporativ müşahidə yoxdur, etik dizayn və mərkəziyyətsizlik! Mastodon ilə öz verilərinizə sahib çıxın!'
+    about_mastodon_html: "Gələcəyin sosial şəbəkəsi: Reklam yoxdur, korporativ müşahidə yoxdur, etik dizayn və mərkəziyyətsizlik! Mastodon ilə öz verilərinizə sahib çıxın!"
     contact_missing: Ayarlanmayıb
     contact_unavailable: Mövcud deyil
     title: Haqqında
@@ -69,7 +69,7 @@ az:
       assigned: Təyin edilmiş moderator
       confirm_action: "@%{acct} üzərindəki moderasiya əməliyyatını təsdiqlə"
       notes_description_html: Notlara baxın, gələcəkdə özünüz və digər moderatorlar üçün notlar buraxın
-      quick_actions_description_html: 'Cəld bir əməliyyat edin və ya bildirilən məzmuna baxmaq üçün aşağı diyirlərin:'
+      quick_actions_description_html: "Cəld bir əməliyyat edin və ya bildirilən məzmuna baxmaq üçün aşağı diyirlərin:"
     roles:
       categories:
         moderation: Moderasiya
@@ -102,7 +102,7 @@ az:
       metadata: Meta veri
     system_checks:
       elasticsearch_version_check:
-        message_html: 'Uyumlu olmayan Elasticsearch versiyası: %{value}'
+        message_html: "Uyumlu olmayan Elasticsearch versiyası: %{value}"
     tags:
       updated_msg: Mövzu etiketi ayarları uğurla güncəlləndi
     trends:
@@ -118,10 +118,7 @@ az:
       next_steps: Moderasiya qərarını geri almaq üçün etirazı təsdiqləyə, ya da etirazı yox saya bilərsiniz.
       subject: "%{username}, %{instance} üzərindəki bir moderasiya qərarına etiraz edir"
   appearance:
-    advanced_web_interface: Qabaqcıl veb interfeys
-    advanced_web_interface_hint: 'Tam ekran enini istifadə etmək istəyirsinizsə, qabaqcıl veb interfeys, istədiyiniz qədər məlumatı eyni anda görə bilməyiniz üçün bir çox fərqli sütunu konfiqurasiya etməyinizə imkan verir: Əsas ekran, bildirişlər, birləşmiş zaman xətti, istənilən sayda siyahı və mövzu etiketləri.'
     animations_and_accessibility: Animasiyalar və erişiləbilənlik
-    confirmation_dialogs: Təsdiq dialoq pəncərələri
     discovery: Kəşf et
     localization:
       guide_link_text: Hər kəs töhfə verə bilər.
@@ -235,7 +232,7 @@ az:
   notifications:
     administration_emails: Admin e-poçt bildirişləri
     email_events: Fəaliyyətlər üçün e-poçt bildirişləri
-    email_events_hint: 'Bildiriş almaq istədiyiniz fəaliyyətləri seçin:'
+    email_events_hint: "Bildiriş almaq istədiyiniz fəaliyyətləri seçin:"
   otp_authentication:
     description_html: Bir kimlik doğrulayıcı tətbiq istifadə edərək <strong>iki addımlı kimlik doğrulamanı</strong> fəallaşdırsanız, giriş etmək üçün telefonunuzun yanınızda olması tələb olunacaq, çünki daxil olmağınız üçün kodlar yaradılacaq.
   preferences:
@@ -283,11 +280,6 @@ az:
     default_language: İnterfeys dili ilə eyni
     pin_errors:
       reblog: Təkrar paylaşım, sancıla bilməz
-    visibilities:
-      private: Yalnız izləyicilər
-      private_long: Yalnız izləyicilər görə bilər
-      public_long: Hər kəs görə bilər
-      unlisted_long: Hər kəs görə bilər, ancaq hər kəsə açıq zaman xətlərində sadalanmır
   statuses_cleanup:
     enabled: Köhnə göndərişləri avtomatik sil
     enabled_hint: Aşağıdakı istisnalardan heç birinə uyuşmadığı müddətcə, göndərişləriniz qeyd edilmiş yaş həddinə çatdıqda avtomatik silinir

@@ -1,7 +1,7 @@
 ---
 gl:
   about:
-    about_mastodon_html: 'A rede social do futuro: Sen publicidade, sen seguimento por empresas, deseño ético e descentralización! En Mastodon ti posúes os teus datos!'
+    about_mastodon_html: "A rede social do futuro: Sen publicidade, sen seguimento por empresas, deseño ético e descentralización! En Mastodon ti posúes os teus datos!"
     contact_missing: Non establecido
     contact_unavailable: Non dispoñíbel
     hosted_on: Mastodon aloxado en %{domain}
@@ -190,6 +190,7 @@ gl:
         create_relay: Crear Repetidor
         create_unavailable_domain: Crear dominio Non dispoñible
         create_user_role: Crear Rol
+        create_username_block: Crear regra para Identificadores
         demote_user: Degradar usuaria
         destroy_announcement: Eliminar anuncio
         destroy_canonical_email_block: Eliminar bloqueo do correo
@@ -203,6 +204,7 @@ gl:
         destroy_status: Eliminar publicación
         destroy_unavailable_domain: Eliminar dominio Non dispoñible
         destroy_user_role: Eliminar Rol
+        destroy_username_block: Eliminar regra para Identificadores
         disable_2fa_user: Desactivar 2FA
         disable_custom_emoji: Desactivar emoticona personalizada
         disable_relay: Desactivar Repetidor
@@ -237,6 +239,7 @@ gl:
         update_report: Actualización da denuncia
         update_status: Actualizar publicación
         update_user_role: Actualizar Rol
+        update_username_block: Actualizar regra para Identificadores
       actions:
         approve_appeal_html: "%{name} aprobou a apelación da decisión da moderación de %{target}"
         approve_user_html: "%{name} aprobou o rexistro de %{target}"
@@ -255,6 +258,7 @@ gl:
         create_relay_html: "%{name} creou un repetidor en %{target}"
         create_unavailable_domain_html: "%{name} deixou de interactuar co dominio %{target}"
         create_user_role_html: "%{name} creou o rol %{target}"
+        create_username_block_html: "%{name} engadiu unha regra para identificadores que contén %{target}"
         demote_user_html: "%{name} degradou a usuaria %{target}"
         destroy_announcement_html: "%{name} eliminou o anuncio %{target}"
         destroy_canonical_email_block_html: "%{name} desbloqueou o correo con suma de comprobación %{target}"
@@ -268,6 +272,7 @@ gl:
         destroy_status_html: "%{name} eliminou a publicación de %{target}"
         destroy_unavailable_domain_html: "%{name} retomou a interacción co dominio %{target}"
         destroy_user_role_html: "%{name} eliminou o rol %{target}"
+        destroy_username_block_html: "%{name} retirou unha regra para identificadores que contén %{target}"
         disable_2fa_user_html: "%{name} desactivou o requerimento do segundo factor para a usuaria %{target}"
         disable_custom_emoji_html: "%{name} desactivou o emoji %{target}"
         disable_relay_html: "%{name} desactivou o repetidor %{target}"
@@ -302,6 +307,7 @@ gl:
         update_report_html: "%{name} actualizou a denuncia %{target}"
         update_status_html: "%{name} actualizou a publicación de %{target}"
         update_user_role_html: "%{name} cambiou o rol %{target}"
+        update_username_block_html: "%{name} actualizou a regra para identificadores que contén %{target}"
       deleted_account: conta eliminada
       empty: Non se atoparon rexistros.
       filter_by_action: Filtrar por acción
@@ -320,7 +326,7 @@ gl:
         title: Novo anuncio
       preview:
         disclaimer: As usuarias non poden omitilas, as notificiacións por correo deberían limitarse a anuncios importantes como fugas de datos personais ou notificación do cese do servizo.
-        explanation_html: 'Vaise enviar o correo a <strong>%{display_count} usuarias</strong>. Incluirase o seguinte texto no correo:'
+        explanation_html: "Vaise enviar o correo a <strong>%{display_count} usuarias</strong>. Incluirase o seguinte texto no correo:"
         title: Previsualización da notificación do anuncio
       publish: Publicar
       published_msg: Anuncio publicado de xeito correcto!
@@ -473,10 +479,10 @@ gl:
       import:
         description_html: Vas importar unha lista de dominios a bloquear. Comproba a lista con atención, especialmente se non creaches ti mesma a lista.
         existing_relationships_warning: Relacións de seguimento existentes
-        private_comment_description_html: 'Para axudarche a lembrar de onde veñen os bloqueos importados, imos crealos engadindo o seguinte comentario privado: <q>%{comment}</q>'
+        private_comment_description_html: "Para axudarche a lembrar de onde veñen os bloqueos importados, imos crealos engadindo o seguinte comentario privado: <q>%{comment}</q>"
         private_comment_template: Importada desde %{source} o %{date}
         title: Importar bloqueos de dominio
-      invalid_domain_block: 'Un ou varios dominios non se bloquearon debido ao seguinte erro(s): %{error}'
+      invalid_domain_block: "Un ou varios dominios non se bloquearon debido ao seguinte erro(s): %{error}"
       new:
         title: Importar bloqueos de dominio
       no_file: Ningún ficheiro seleccionado
@@ -610,12 +616,12 @@ gl:
       created_msg: Engadeuse a nova regra IP
       delete: Eliminar
       expires_in:
-        '1209600': 2 semanas
-        '15778476': 6 meses
-        '2629746': 1 mes
-        '31556952': 1 ano
-        '86400': 1 día
-        '94670856': 3 anos
+        "1209600": 2 semanas
+        "15778476": 6 meses
+        "2629746": 1 mes
+        "31556952": 1 ano
+        "86400": 1 día
+        "94670856": 3 anos
       new:
         title: Crear nova regra IP
       no_ip_block_selected: Non se cambiou ningunha regra iP porque non seleccionaches ningunha
@@ -671,7 +677,7 @@ gl:
       category_description_html: A razón para denunciar esta conta ou contido será citada na comunicación coa conta denunciada
       comment:
         none: Ningún
-      comment_description_html: 'Como información engadida, %{name} escribiu:'
+      comment_description_html: "Como información engadida, %{name} escribiu:"
       confirm: Confirmar
       confirm_action: Confirma a acción de moderación contra @%{acct}
       created_at: Denunciado
@@ -691,11 +697,11 @@ gl:
         placeholder: Describir que accións foron tomadas ou calquera outra novidade sobre esta denuncia...
         title: Notas
       notes_description_html: Ver e deixar unha nota para ti no futuro e outras moderadoras
-      processed_msg: 'Procesada correctamente a denuncia #%{id}'
-      quick_actions_description_html: 'Toma unha acción rápida ou desprázate abaixo para ver o contido denunciado:'
+      processed_msg: "Procesada correctamente a denuncia #%{id}"
+      quick_actions_description_html: "Toma unha acción rápida ou desprázate abaixo para ver o contido denunciado:"
       remote_user_placeholder: a usuaria remota desde %{instance}
       reopen: Reabrir denuncia
-      report: 'Denuncia #%{id}'
+      report: "Denuncia #%{id}"
       reported_account: Conta denunciada
       reported_by: Denunciado por
       reported_with_application: Denunciado coa aplicación
@@ -707,16 +713,16 @@ gl:
       statuses_description_html: O contido ofensivo será citado na comunicación coa conta denunciada
       summary:
         action_preambles:
-          delete_html: 'Vas <strong>eliminar</strong> algunha das publicacións de <strong>@%{acct}</strong>. Serán:'
-          mark_as_sensitive_html: 'Vas <strong>marcar</strong> algunha das publicacións de <strong>@%{acct}</strong> como <strong>sensibles</strong>. Serán:'
-          silence_html: 'Vas <strong>limitar</strong> a conta <strong>@%{acct}</strong>:'
-          suspend_html: 'Vas <strong>suspender</strong> a conta <strong>@%{acct}</strong>:'
+          delete_html: "Vas <strong>eliminar</strong> algunha das publicacións de <strong>@%{acct}</strong>. Serán:"
+          mark_as_sensitive_html: "Vas <strong>marcar</strong> algunha das publicacións de <strong>@%{acct}</strong> como <strong>sensibles</strong>. Serán:"
+          silence_html: "Vas <strong>limitar</strong> a conta <strong>@%{acct}</strong>:"
+          suspend_html: "Vas <strong>suspender</strong> a conta <strong>@%{acct}</strong>:"
         actions:
           delete_html: Eliminar as publicacións ofensivas
           mark_as_sensitive_html: Marcar as publicacións ofensivas como sensibles
           silence_html: Limitar moito a visibilidade e alcance da conta <strong>@%{acct}</strong> facendo que o seu perfil e contidos sexan visibles só por persoas que a seguen ou que a busquen de xeito activo
           suspend_html: Suspender a conta <strong>@%{acct}</strong>, facendo que o seu perfil e contidos non sexan accesibles e imposible interactuar con ela
-        close_report: 'Marcar a denuncia #%{id} como resolta'
+        close_report: "Marcar a denuncia #%{id} como resolta"
         close_reports_html: Marcar <strong>todas</strong> as denuncias contra <strong>@%{acct}</strong> como resoltas
         delete_data_html: Eliminar o perfil e contidos de <strong>@%{acct}</strong> para os próximos 30 días a non ser que sexa suspendida nese período
         preview_preamble_html: "<strong>@%{acct}</strong> vai recibir un aviso co seguinte contido:"
@@ -726,7 +732,7 @@ gl:
       target_origin: Orixe da conta denunciada
       title: Denuncias
       unassign: Non asignar
-      unknown_action_msg: 'Acción descoñecida: %{action}'
+      unknown_action_msg: "Acción descoñecida: %{action}"
       unresolved: Non resolto
       updated_at: Actualizado
       view_profile: Ver perfil
@@ -790,6 +796,8 @@ gl:
         view_dashboard_description: Permite acceder ao taboleiro e varias métricas do servidor
         view_devops: DevOps
         view_devops_description: Permite acceder aos taboleiros Sidekiq e phHero
+        view_feeds: Ver as canles do directo e temas
+        view_feeds_description: Permite ás usuarias acceder ás canles de directo e temas independentemento dos axustes do servidor.
       title: Roles
     rules:
       add_new: Engadir regra
@@ -811,7 +819,7 @@ gl:
         rules_hint: Hai un espazo dedicado para as normas que é de agardar as usuarias acaten.
         title: Sobre
       allow_referrer_origin:
-        desc: 'Cando as túas usuarias premen en ligazóns a sitios web externos o seu navegador pode enviar o enderezo do teu servidor Mastodon como «referrer». Destactiva esta opción se isto permitiría identificar de xeito único ás túas usuarias. Ex.: un servidor persoal de Mastodon.'
+        desc: "Cando as túas usuarias premen en ligazóns a sitios web externos o seu navegador pode enviar o enderezo do teu servidor Mastodon como «referrer». Destactiva esta opción se isto permitiría identificar de xeito único ás túas usuarias. Ex.: un servidor persoal de Mastodon."
         title: Permitir a sitios web externos ver o teu servidor Mastodon como orixe do tráfico
       appearance:
         preamble: Personalizar a interface web de Mastodon.
@@ -842,6 +850,16 @@ gl:
         all: Para todos
         disabled: Para ninguén
         users: Para usuarias locais conectadas
+      feed_access:
+        modes:
+          authenticated: Só para usuarias con sesión iniciada
+          disabled: Requerir un rol da usuaria específico
+          public: Para calquera
+      landing_page:
+        values:
+          about: Sobre
+          local_feed: Cronoloxía Local
+          trends: Tendencias
       registrations:
         moderation_recommandation: Por favor, pon interese en crear un equipo de moderación competente e reactivo antes de permitir que calquera poida crear unha conta!
         preamble: Xestiona quen pode crear unha conta no teu servidor.
@@ -879,7 +897,7 @@ gl:
       back_to_account: Volver a páxina da conta
       back_to_report: Volver a denuncias
       batch:
-        add_to_report: 'Engadir á denuncia #%{id}'
+        add_to_report: "Engadir á denuncia #%{id}"
         remove_from_report: Eliminar da denuncia
         report: Denuncia
       contents: Contidos
@@ -895,6 +913,7 @@ gl:
       no_status_selected: Non se cambiou ningunha publicación xa que ningunha foi seleccionada
       open: Abrir publicación
       original_status: Publicación orixinal
+      quotes: Citas
       reblogs: Promocións
       replied_to_html: Respondeu a %{acct_link}
       status_changed: Publicación editada
@@ -902,6 +921,7 @@ gl:
       title: Publicacións da conta - @%{name}
       trending: Popular
       view_publicly: Ver publicamente
+      view_quoted_post: Ver publicación citada
       visibility: Visibilidade
       with_media: con medios
     strikes:
@@ -938,7 +958,7 @@ gl:
       elasticsearch_running_check:
         message_html: Non se puido conectar con Elasticsearch. Comproba que está funcionando, ou desactiva a busca por texto completo
       elasticsearch_version_check:
-        message_html: 'Versión incompatible de Elasticsearch: %{value}'
+        message_html: "Versión incompatible de Elasticsearch: %{value}"
         version_comparison: Está executándose Elasticsearch %{running_version} pero requírese a %{required_version}
       rules_check:
         action: Xestionar regras do servidor
@@ -1000,7 +1020,7 @@ gl:
       notified_on_html: Informouse ás usuarias o %{date}
       notify_users: Informar ás usuarias
       preview:
-        explanation_html: 'Vaise enviar un correo a <strong>%{display_count} usuarias</strong> que crearon a conta antes do %{date}. Incluirase o seguinte texto no correo:'
+        explanation_html: "Vaise enviar un correo a <strong>%{display_count} usuarias</strong> que crearon a conta antes do %{date}. Incluirase o seguinte texto no correo:"
         send_preview: Enviar vista previa a %{email}
         send_to_all:
           one: Enviar %{display_count} correo
@@ -1077,7 +1097,7 @@ gl:
         peaked_on_and_decaying: Máximo en %{date}, agora diminúe
         title: Cancelos en voga
         trendable: Pode aparecer nas tendencias
-        trending_rank: 'En voga #%{rank}'
+        trending_rank: "En voga #%{rank}"
         usable: Pode ser usado
         usage_comparison: Utilizado %{today} veces hoxe, comparado coas %{yesterday} de onte
         used_by_over_week:
@@ -1085,6 +1105,25 @@ gl:
           other: Utilizado por %{count} persoas na última semana
       title: Recomendacións e Suxestións
       trending: Popularidade
+    username_blocks:
+      add_new: Engadir nova
+      block_registrations: Bloqueo dos rexistros
+      comparison:
+        contains: Contén
+        equals: É igual a
+      contains_html: Contén %{string}
+      created_msg: Creouse correctamente a regra para identificadores
+      delete: Eliminar
+      edit:
+        title: Editar regra para identificadores
+      matches_exactly_html: É igual a %{string}
+      new:
+        create: Crear regra
+        title: Crear nova regra para identificadores
+      no_username_block_selected: Non se cambiou ningunha regra porque non se seleccionou ningunha
+      not_permitted: Non permitido
+      title: Regras para identificadores
+      updated_msg: Actualizouse correctamente a regra
     warning_presets:
       add_new: Engadir novo
       delete: Eliminar
@@ -1141,7 +1180,7 @@ gl:
       body: Publicáronse novas versións de Mastodon, convenche actualizar!
       subject: Hai novas versións de Mastodon dispoñibles para %{instance}!
     new_trends:
-      body: 'Os seguintes elementos precisan revisión antes de ser mostrados públicamente:'
+      body: "Os seguintes elementos precisan revisión antes de ser mostrados públicamente:"
       new_trending_links:
         title: Ligazóns en voga
       new_trending_statuses:
@@ -1157,10 +1196,10 @@ gl:
     hint_html: Se queres mudarte desde outra conta a esta nova, aquí podes crear un alcume, que é requerido antes de poder proceder a mover os seguidores da conta antiga a esta nova. Esta acción por si mesma é <strong>inocua e reversible</strong>. <strong>A migración da conta iníciase desde a conta antiga</strong>.
     remove: Desligar alcume
   appearance:
-    advanced_web_interface: Interface web avanzada
-    advanced_web_interface_hint: Se queres empregar todo o ancho da pantalla, a interface web avanzada permíteche configurar diferentes columnas para ver tanta información como queiras. Inicio, notificacións, cronoloxía federada, varias listaxes e cancelos.
+    advanced_settings: Axustes avanzados
     animations_and_accessibility: Animacións e accesibilidade
-    confirmation_dialogs: Diálogos de confirmación
+    boosting_preferences: Preferencias das promocións
+    boosting_preferences_info_html: "<strong>Info:</strong> Independentemente dos axustes, <kbd>Maiús</kbd> + <kbd>Click</kbd> na icona %{icon} Promover promoverá inmediatamente."
     discovery: Descubrir
     localization:
       body: Mastodon tradúceno persoas voluntarias.
@@ -1170,9 +1209,9 @@ gl:
   application_mailer:
     notification_preferences: Cambiar preferencias de correo
     salutation: "%{name},"
-    settings: 'Cambiar preferencias de correo: %{link}'
+    settings: "Cambiar preferencias de correo: %{link}"
     unsubscribe: Anular subscrición
-    view: 'Vista:'
+    view: "Vista:"
     view_profile: Ver perfil
     view_status: Ver publicación
   applications:
@@ -1232,7 +1271,7 @@ gl:
     rules:
       accept: Aceptar
       back: Volver
-      invited_by: 'Podes unirte a %{domain} grazas ao convite que recibiches de parte de:'
+      invited_by: "Podes unirte a %{domain} grazas ao convite que recibiches de parte de:"
       preamble: Son establecidas e aplicadas pola moderación de %{domain}.
       preamble_invited: Antes de continuar adica un minuto a ler as regras básicas establecidas para %{domain}.
       title: Algunhas regras básicas.
@@ -1267,7 +1306,7 @@ gl:
   author_attribution:
     example_title: Texto de mostra
     hint_html: Escribes novas ou artigos nun blog alleos a Mastodon? Xestiona o xeito en que podes dar crédito da túa autoría cando os compartes en Mastodon.
-    instructions: 'Pon coidado en que este código apareza no HTML do teu artigo:'
+    instructions: "Pon coidado en que este código apareza no HTML do teu artigo:"
     more_from_html: Máis de %{name}
     s_blog: Blog de %{name}
     then_instructions: Despois engade o nome de dominio da publicación no campo inferior.
@@ -1305,7 +1344,7 @@ gl:
     proceed: Eliminar conta
     success_msg: A súa conta eliminouse correctamente
     warning:
-      before: 'Antes de continuar, por favor le estas notas con atención:'
+      before: "Antes de continuar, por favor le estas notas con atención:"
       caches: O contido almacenado noutros servidores podería persistir
       data_removal: As túas publicacións e outros datos serán permanentemente borrados
       email_change_html: Podes <a href="%{path}">cambiar o enderezo de correo</a> sen eliminar a conta
@@ -1331,7 +1370,7 @@ gl:
       description_html: Estas son as accións tomadas contra a túa conta e os avisos que che enviou a administración de %{instance}.
       recipient: Entregada a
       reject_appeal: Rexeitar apelación
-      status: 'Publicación #%{id}'
+      status: "Publicación #%{id}"
       status_removed: A publicación xa foi eliminada do sistema
       title: "%{action} o %{date}"
       title_actions:
@@ -1349,20 +1388,24 @@ gl:
     basic_information: Información básica
     hint_html: "<strong>Personaliza o que van ver no teu perfil público e ao lado das túas publicacións.</strong> As outras persoas estarán máis animadas a seguirte e interactuar contigo se engades algún dato sobre ti así como unha imaxe de perfil."
     other: Outros
+  emoji_styles:
+    auto: Auto
+    native: Nativo
+    twemoji: Twemoji
   errors:
-    '400': A solicitude que enviou non é válida ou ten formato incorrecto.
-    '403': Non ten permiso para ver esta páxina.
-    '404': A páxina que buscas non está aquí.
-    '406': Esta páxina non está dispoñible no formato solicitado.
-    '410': A páxina que estaba a buscar xa non existe.
-    '422':
+    "400": A solicitude que enviou non é válida ou ten formato incorrecto.
+    "403": Non ten permiso para ver esta páxina.
+    "404": A páxina que buscas non está aquí.
+    "406": Esta páxina non está dispoñible no formato solicitado.
+    "410": A páxina que estaba a buscar xa non existe.
+    "422":
       content: Fallou a verificación de seguridade. Estás bloqueando os rastros?
       title: Fallou a verficación de seguridade
-    '429': Acelerado
-    '500':
+    "429": Acelerado
+    "500":
       content: Sentímolo, pero algo do noso lado falloou.
       title: Esta páxina non é correcta
-    '503': A páxina non se puido servir debido a un fallo temporal no servidor.
+    "503": A páxina non se puido servir debido a un fallo temporal no servidor.
     noscript_html: Para utilizar a aplicación web de Mastodon debes activar JavaScript. De xeito alternativo, proba cunha das <a href="%{apps_path}">apps nativas</a> para Mastodon na túa plataforma.
   existing_username_validator:
     not_found: non se atopou unha usuaria local con ese alcume
@@ -1457,7 +1500,7 @@ gl:
     errors:
       empty: Ficheiro CSV de baleiro
       incompatible_type: Non é compatible co tipo de importación seleccionado
-      invalid_csv_file: 'Ficheiro CSV non válido. Erro: %{error}'
+      invalid_csv_file: "Ficheiro CSV non válido. Erro: %{error}"
       over_rows_processing_limit: contén máis de %{count} filas
       too_large: O ficheiro é demasiado grande
     failures: Erros
@@ -1539,16 +1582,16 @@ gl:
     delete: Desactivar
     expired: Caducou
     expires_in:
-      '1800': 30 minutos
-      '21600': 6 horas
-      '3600': 1 hora
-      '43200': 12 horas
-      '604800': 1 semana
-      '86400': 1 día
+      "1800": 30 minutos
+      "21600": 6 horas
+      "3600": 1 hora
+      "43200": 12 horas
+      "604800": 1 semana
+      "86400": 1 día
     expires_in_prompt: Nunca
     generate: Xerar
     invalid: Este convite non é válido
-    invited_by: 'Convidoute:'
+    invited_by: "Convidoute:"
     max_uses:
       one: 1 uso
       other: "%{count} usos"
@@ -1558,6 +1601,13 @@ gl:
       expires_at: Caduca
       uses: Usos
     title: Convidar a persoas
+  link_preview:
+    author_html: De %{name}
+    potentially_sensitive_content:
+      action: Preme para ver
+      confirm_visit: Tes certeza de querer abrir esta ligazón?
+      hide_button: Ocultar
+      label: Posible contido sensible
   lists:
     errors:
       limit: Xa acadaches o número máximo de listas
@@ -1617,7 +1667,7 @@ gl:
     set_redirect: Establecer redirección
     warning:
       backreference_required: Tes que configurar primeiro a nova conta para referenciar hacia esta
-      before: 'Antes de continuar, por favor le estas notas con atención:'
+      before: "Antes de continuar, por favor le estas notas con atención:"
       cooldown: Tras a migración existe un período de calma durante o cal non poderás volver a migrar de novo
       disabled_account: Tras o cambio a túa conta actual non será totalmente usable, pero terás acceso a exportar os datos e tamén a reactivación.
       followers: Esta acción moverá todas as túas seguidoras desde a conta actual a nova conta
@@ -1629,7 +1679,7 @@ gl:
   move_handler:
     carry_blocks_over_text: Esta usuaria chegou desde %{acct}, que ti tes bloqueada.
     carry_mutes_over_text: Esta usuaria chegou desde %{acct}, que ti tes acalada.
-    copy_account_note_text: 'Esta usuaria chegou desde %{acct}, aquí están as túas notas previas acerca dela:'
+    copy_account_note_text: "Esta usuaria chegou desde %{acct}, aquí están as túas notas previas acerca dela:"
   navigation:
     toggle_menu: Activa o menú
   notification_mailer:
@@ -1639,7 +1689,7 @@ gl:
       sign_up:
         subject: "%{name} rexistrouse"
     favourite:
-      body: 'A túa publicación foi favorecida por %{name}:'
+      body: "A túa publicación foi favorecida por %{name}:"
       subject: "%{name} marcou como favorita a túa publicación"
       title: Nova favorita
     follow:
@@ -1649,7 +1699,7 @@ gl:
     follow_request:
       action: Xestionar peticións de seguimento
       body: "%{name} solicitou poder seguila"
-      subject: 'Seguidora pendente: %{name}'
+      subject: "Seguidora pendente: %{name}"
       title: Nova petición de seguimento
     mention:
       action: Responder
@@ -1658,8 +1708,12 @@ gl:
       title: Nova mención
     poll:
       subject: A enquisa de %{name} rematou
+    quote:
+      body: "A túa publicación foi citada por %{name}:"
+      subject: "%{name} citou a túa publicación"
+      title: Nova cita
     reblog:
-      body: 'A túa publicación promovida por %{name}:'
+      body: "A túa publicación promovida por %{name}:"
       subject: "%{name} promoveu a túa publicación"
       title: Nova promoción
     status:
@@ -1669,7 +1723,7 @@ gl:
   notifications:
     administration_emails: Administrar notificacións por correo
     email_events: Eventos para as notificación por correo
-    email_events_hint: 'Escolle os eventos sobre os que queres recibir notificacións:'
+    email_events_hint: "Escolle os eventos sobre os que queres recibir notificacións:"
   number:
     human:
       decimal_units:
@@ -1685,7 +1739,7 @@ gl:
     description_html: Se activas a <strong>autenticación con dous factores</strong> utilizando unha app de autenticación, ao conectarte pedirémosche que teñas o móbil á man, para crear o código que precisas para acceder.
     enable: Activar
     instructions_html: "<strong>Escanea este código QR na túa app TOTP ou tipo Google Authenticator no móbil</strong>. A partir de agora, a app creará códigos que terás que escribir cando entres."
-    manual_instructions: 'Se non podes escanear o código QR e tes que escribilo á man, aquí tes o código en texto plano:'
+    manual_instructions: "Se non podes escanear o código QR e tes que escribilo á man, aquí tes o código en texto plano:"
     setup: Configurar
     wrong_code: O código escrito non é válido! ¿é correcta a hora no dispositivo e no servidor?
   pagination:
@@ -1707,6 +1761,8 @@ gl:
       too_few_options: debe ter máis de unha opción
       too_many_options: non pode haber máis de %{max} opcións
     vote: Votar
+  posting_defaults:
+    explanation: Estes axustes vanse usar como valores por defecto para as novas publicacións, pero podes axustalas de xeito individual na caixa de edición.
   preferences:
     other: Outro
     posting_defaults: Valores por defecto
@@ -1756,10 +1812,10 @@ gl:
     errors:
       invalid_rules: non fai referencia a regras válidas
   rss:
-    content_warning: 'Aviso sobre o contido:'
+    content_warning: "Aviso sobre o contido:"
     descriptions:
       account: Publicacións públicas de @%{acct}
-      tag: 'Publicacións públicas con #%{hashtag}'
+      tag: "Publicacións públicas con #%{hashtag}"
   scheduled_statuses:
     over_daily_limit: Excedeches o límite de %{limit} publicacións programadas para ese día
     over_total_limit: Excedeches o límite de %{limit} publicacións programadas
@@ -1853,7 +1909,7 @@ gl:
       audio:
         one: "%{count} audio"
         other: "%{count} audios"
-      description: 'Axenado: %{attached}'
+      description: "Axenado: %{attached}"
       image:
         one: "%{count} imaxe"
         other: "%{count} imaxes"
@@ -1861,33 +1917,42 @@ gl:
         one: "%{count}  vídeo"
         other: "%{count} vídeos"
     boosted_from_html: Promovida desde %{acct_link}
-    content_warning: 'Aviso sobre o contido: %{warning}'
+    content_warning: "Aviso sobre o contido: %{warning}"
+    content_warnings:
+      hide: Ocultar publicación
+      show: Ver máis
     default_language: Igual que o idioma da interface
     disallowed_hashtags:
-      one: 'contiña un cancelo non permitido: %{tags}'
-      other: 'contiña uns cancelos non permitidos: %{tags}'
+      one: "contiña un cancelo non permitido: %{tags}"
+      other: "contiña uns cancelos non permitidos: %{tags}"
     edited_at_html: Editado %{date}
     errors:
       in_reply_not_found: A publicación á que tentas responder semella que non existe.
+      quoted_status_not_found: Parece que a publicación que intentas citar non existe.
+      quoted_user_not_mentioned: Non se pode citar a unha usuaria non mencionada nunha Mención Privada.
     over_character_limit: Excedeu o límite de caracteres %{max}
     pin_errors:
       direct: As publicacións que só son visibles para as usuarias mencionadas non se poden fixar
       limit: Xa fixaches o número máximo permitido de publicacións
       ownership: Non podes fixar a publicación doutra usuaria
       reblog: Non se poden fixar as mensaxes promovidas
+    quote_error:
+      not_available: Publicación non dispoñible
+      pending_approval: Publicación pendente
+      revoked: Publicación retirada pola autora
     quote_policies:
       followers: Só para seguidoras
       nobody: Só para min
       public: Calquera
+    quote_post_author: Citou unha publicación de %{acct}
     title: '%{name}: "%{quote}"'
     visibilities:
       direct: Mención privada
-      private: Só seguidoras
-      private_long: Mostrar só as seguidoras
+      private: Só para seguidoras
       public: Público
-      public_long: Visible para calquera
-      unlisted: Fóra das listas
-      unlisted_long: Visible para calquera, pero non en cronoloxías públicas
+      public_long: Para calquera dentro e fóra de Mastodon
+      unlisted: Pública limitada
+      unlisted_long: Non aparece nos resultados de buscas en Mastodon, nas tendencias e cronoloxías públicas
   statuses_cleanup:
     enabled: Borrar automáticamente publicacións antigas
     enabled_hint: Borra automáticamente as túas publicacións unha vez acadan certa lonxevidade, a menos que cumpran algunha destas excepcións
@@ -1910,14 +1975,14 @@ gl:
     keep_self_fav: Manter as publicacións que favoreceches
     keep_self_fav_hint: Non elimina as túas propias publicacións se as marcaches como favoritas
     min_age:
-      '1209600': 2 semanas
-      '15778476': 6 meses
-      '2629746': 1 mes
-      '31556952': 1 ano
-      '5259492': 2 meses
-      '604800': 1 semana
-      '63113904': 2 anos
-      '7889238': 3 meses
+      "1209600": 2 semanas
+      "15778476": 6 meses
+      "2629746": 1 mes
+      "31556952": 1 ano
+      "5259492": 2 meses
+      "604800": 1 semana
+      "63113904": 2 anos
+      "7889238": 3 meses
     min_age_label: Límite temporal
     min_favs: Manter publicacións favorecidas polo menos
     min_favs_hint: Non elimina ningunha das túas publicacións que recibiron alomenos esta cantidade de favorecementos. Deixa en branco para eliminar publicacións independentemente do número de favorecementos
@@ -1989,22 +2054,22 @@ gl:
       subject: O teu ficheiro xa está preparado para descargar
       title: Leve o ficheiro
     failed_2fa:
-      details: 'Detalles do intento de acceso:'
+      details: "Detalles do intento de acceso:"
       explanation: Alguén intentou acceder á túa conta mais fíxoo cun segundo factor de autenticación non válido.
       further_actions_html: Se non foches ti, recomendámosche %{action} inmediatamente porque a conta podería estar en risco.
       subject: Fallo co segundo factor de autenticación
       title: Fallou o segundo factor de autenticación
     suspicious_sign_in:
       change_password: cambia o teu contrasinal
-      details: 'Estos son os detalles do acceso:'
+      details: "Estos son os detalles do acceso:"
       explanation: Detectamos que accedeches á conta desde un novo enderezo IP.
       further_actions_html: Se non foches ti, aconsellámosche %{action} inmediatamente e activar o segundo factor de autenticación para manter conta segura.
       subject: Accedeuse á túa conta desde novos enderezos IP
       title: Novo acceso
     terms_of_service_changed:
       agreement: Se continúas a usar %{domain} aceptas estas condicións. Se non aceptas as condicións actualizadas podería rematar o acordo con %{domain} en calquera momento e eliminarse a túa conta.
-      changelog: 'Dunha ollada, aquí tes o que implican os cambios para ti:'
-      description: 'Estás a recibir este correo porque fixemos cambios nas condicións do servizo en %{domain}. Estas actualizacións terán efecto desde o %{date}. Convidámoste a que revises os termos ao completo aquí:'
+      changelog: "Dunha ollada, aquí tes o que implican os cambios para ti:"
+      description: "Estás a recibir este correo porque fixemos cambios nas condicións do servizo en %{domain}. Estas actualizacións terán efecto desde o %{date}. Convidámoste a que revises os termos ao completo aquí:"
       description_html: 'Estás a recibir este correo porque fixemos algúns cambios nas nósas condicións do servizo en %{domain}. Estas actualizacións terán efecto desde o <strong>%{date}</strong>. Convidámoste a que leas <a href="%{path}" target="_blank">aquí as condicións actualizadas ao completo</a>:'
       sign_off: O equipo de %{domain}
       subject: Actualización das condicións do servizo
@@ -2023,8 +2088,8 @@ gl:
         sensitive: A partir deste momento, tódolos ficheiros que subiches estarán marcados como sensibles e agochados tras un aviso de contido.
         silence: Aínda podes usar a túa conta pero só as persoas que te siguen poden ver as túas publicacións neste servidor, e podes que foses excluída de varios xeitos de descubrimento. Porén, aínda te poden seguir de xeito manual.
         suspend: Xa non podes usar a túa conta, o teu perfil e outros datos xa non son accesibles. Aínda podes acceder para solicitar unha copia dos teus datos no prazo de 30 días previos á eliminación da conta. Imos reter algúns datos básicos para evitar que poidas evitar a suspensión.
-      reason: 'Razón:'
-      statuses: 'Publicacións citadas:'
+      reason: "Razón:"
+      statuses: "Publicacións citadas:"
       subject:
         delete_statuses: As túas publicacións en %{acct} foron eliminadas
         disable: A súa conta %{acct} foi conxelada
@@ -2046,12 +2111,12 @@ gl:
       apps_ios_action: Descarga desde App Store
       apps_step: Descarga as apps oficiais.
       apps_title: Apps de Mastodon
-      checklist_subtitle: 'Ímoste guiar no comezo nesta nova experiencia social:'
+      checklist_subtitle: "Ímoste guiar no comezo nesta nova experiencia social:"
       checklist_title: Lista de comprobación
       edit_profile_action: Personalizar
       edit_profile_step: Aumenta as túas interaccións grazas a un perfil descriptivo.
       edit_profile_title: Personaliza o teu perfil
-      explanation: Aquí tes algunhas endereitas para ir aprendendo
+      explanation: Aquí tes algúns consellos para ir aprendendo
       feature_action: Saber máis
       feature_audience: Mastodon dache a oportunidade de xestionar sen intermediarios as túas relacións. Incluso se usas o teu propio servidor Mastodon poderás seguir e ser seguida desde calquera outro servidor Mastodon conectado á rede e estará baixo o teu control exclusivo.
       feature_audience_title: Crea a túa audiencia con tranquilidade
@@ -2088,7 +2153,7 @@ gl:
     otp_lost_help_html: Se perdes o acceso a ambos, podes contactar con %{email}
     rate_limited: Demasiados intentos de autenticación, inténtao máis tarde.
     seamless_external_login: Accedeches a través dun servizo externo, polo que os axustes de contrasinal e correo non están dispoñibles.
-    signed_in_as: 'Rexistrada como:'
+    signed_in_as: "Rexistrada como:"
   verification:
     extra_instructions_html: <strong>Truco:</strong> A ligazón pode estar agochada na túa páxina web. A parte importante é <code>rel="me"</code> que impide a suplantación en sitios web con contido creado polas usuarias. Incluso podes usar a etiqueta <code>link</code> na cabeceira da páxina en lugar de <code>a</code>, pero o HTML debe ser accesible sen precisar usar JavaScript.
     here_is_how: Podes facelo así
